@@ -1,0 +1,1 @@
+const getLastItem = a => a.slice(-1)[0];
