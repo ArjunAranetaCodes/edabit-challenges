@@ -1,0 +1,1 @@
+const getLastItem = arr => arr[arr.length - 1];
