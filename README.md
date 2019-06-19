@@ -1,2 +1,2 @@
 # edabit-challenges
-My answers on https://edabit.com/ challenges
+https://edabit.com/ Challenges Answers
