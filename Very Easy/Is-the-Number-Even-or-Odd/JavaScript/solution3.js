@@ -1,0 +1,1 @@
+isEvenOrOdd = n => n % 2 ? 'odd' : 'even'
