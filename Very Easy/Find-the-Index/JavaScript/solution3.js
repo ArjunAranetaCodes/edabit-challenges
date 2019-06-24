@@ -1,0 +1,1 @@
+const findIndex = (arr, str) => arr.findIndex(val => val === str);
