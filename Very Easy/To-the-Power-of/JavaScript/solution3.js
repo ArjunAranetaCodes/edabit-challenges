@@ -1,0 +1,1 @@
+calculateExponent = Math.pow
