@@ -1,0 +1,1 @@
+numArgs = (...a) => a.length || 0
