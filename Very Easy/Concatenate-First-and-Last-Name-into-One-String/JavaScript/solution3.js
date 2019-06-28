@@ -1,0 +1,1 @@
+const concatName = (first, last) => `${last}, ${first}`;
