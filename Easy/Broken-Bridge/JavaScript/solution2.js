@@ -1,0 +1,1 @@
+const isSafeBridge = b => !/[ ]/g.test(b)
