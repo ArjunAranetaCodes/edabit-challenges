@@ -1,0 +1,1 @@
+charCount=(char, str)=>str.split(char).length-1;
