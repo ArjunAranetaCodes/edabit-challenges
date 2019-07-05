@@ -1,0 +1,1 @@
+const largestSwap = (num) => Number(num.toString().split('').reverse().join('')) <= num;
