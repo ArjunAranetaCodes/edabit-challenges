@@ -1,0 +1,1 @@
+const largestSwap = num => Math.floor(num / 10) >= num % 10;
