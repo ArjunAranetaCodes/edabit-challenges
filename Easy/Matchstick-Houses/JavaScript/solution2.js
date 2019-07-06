@@ -1,0 +1,1 @@
+let matchHouses=n=>!n?0:5*n+1;
