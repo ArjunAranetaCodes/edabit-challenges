@@ -1,0 +1,1 @@
+matchHouses = a => a && a*5+1
