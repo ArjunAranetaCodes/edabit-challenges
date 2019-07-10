@@ -1,0 +1,1 @@
+const REGEXP = /[^\s,.]+/g;
