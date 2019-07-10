@@ -1,0 +1,1 @@
+const REGEXP = /[.\S]{3}/g
