@@ -1,0 +1,1 @@
+const REGEXP = /[a-z]{2}./g
