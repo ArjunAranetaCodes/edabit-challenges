@@ -1,0 +1,1 @@
+const REGEXP = /\W\/\w{3}\W/g
