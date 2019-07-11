@@ -1,0 +1,1 @@
+isEvenOrOdd = (n) => [`even`, `odd`][n & 1]
