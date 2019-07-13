@@ -1,0 +1,1 @@
+const emptySq = step => Math.pow(step * 2, 2) - step * 4;
