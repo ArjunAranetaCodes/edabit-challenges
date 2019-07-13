@@ -1,0 +1,1 @@
+let emptySq=s=>s*(s-1)*4
