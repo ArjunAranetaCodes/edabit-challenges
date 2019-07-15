@@ -1,0 +1,1 @@
+const redundant = str => () => str;
