@@ -1,0 +1,1 @@
+arrayOfMultiples = (n, l)  => [...Array(l).keys()].map(x => (x + 1) * n)
