@@ -1,0 +1,1 @@
+const getEquivalent = note => "GABCDEFGA"[" ABCDEFG ".indexOf(note[0]) + {"#": 1, "b": -1}[note[1]]] + {"#": "b", "b": "#"}[note[1]];
