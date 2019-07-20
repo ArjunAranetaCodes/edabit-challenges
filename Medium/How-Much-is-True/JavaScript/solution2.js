@@ -1,0 +1,1 @@
+const countTrue = (arr) => arr.filter(Boolean).length;
