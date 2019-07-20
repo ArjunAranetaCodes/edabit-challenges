@@ -1,0 +1,1 @@
+const count_true = r => r.filter(Boolean).length
