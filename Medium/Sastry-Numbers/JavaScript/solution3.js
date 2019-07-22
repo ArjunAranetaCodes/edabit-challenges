@@ -1,0 +1,1 @@
+const isSastry = num => Number.isInteger(Math.sqrt(`${num}${num + 1}`));
