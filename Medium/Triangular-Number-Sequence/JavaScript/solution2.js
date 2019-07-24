@@ -1,0 +1,1 @@
+const triangle = num => (num <= 1 ? 1 : triangle(num - 1) + num);
