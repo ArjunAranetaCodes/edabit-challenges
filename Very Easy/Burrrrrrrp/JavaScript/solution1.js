@@ -1,0 +1,1 @@
+const longBurp = n => `Bu${'r'.repeat(n)}p`;
