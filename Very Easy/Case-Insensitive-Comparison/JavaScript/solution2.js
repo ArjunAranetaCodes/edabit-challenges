@@ -1,0 +1,1 @@
+match = (a, b) => a.toLowerCase() == b.toLowerCase();
