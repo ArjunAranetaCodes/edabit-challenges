@@ -1,0 +1,1 @@
+divisibleByFive = n => !(n%5)
