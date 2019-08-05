@@ -1,0 +1,1 @@
+let hasSpaces = (str) => str.split(" ").length > 1
