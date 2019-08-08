@@ -1,0 +1,1 @@
+let howManySeconds = h => h * 3600;
