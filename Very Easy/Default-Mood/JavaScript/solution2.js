@@ -1,0 +1,1 @@
+const moodToday = mood => `Today, I am feeling ${mood || 'neutral'}`;
