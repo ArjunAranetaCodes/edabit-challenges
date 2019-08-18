@@ -1,0 +1,1 @@
+search=(a, i)=>a.findIndex(n=>n===i)
