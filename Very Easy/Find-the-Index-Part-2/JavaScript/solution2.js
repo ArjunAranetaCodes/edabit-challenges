@@ -1,0 +1,1 @@
+const search = (arr, num) => arr.indexOf(num);
