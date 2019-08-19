@@ -1,0 +1,1 @@
+const findPerimeter = (h, w) => (w+h)*2
