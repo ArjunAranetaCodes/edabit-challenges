@@ -1,0 +1,1 @@
+const greaterThanOne = frac => eval(frac) > 1;
