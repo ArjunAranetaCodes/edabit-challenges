@@ -1,0 +1,1 @@
+const frames = (m, fps) => m * (fps * 60);
