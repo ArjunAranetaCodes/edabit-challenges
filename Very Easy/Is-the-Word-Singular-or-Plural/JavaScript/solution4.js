@@ -1,0 +1,1 @@
+let isPlural = w => /s$/i.test(w)
