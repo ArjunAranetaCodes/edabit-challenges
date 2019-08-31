@@ -1,0 +1,1 @@
+const lessThan100 = (n1, n2) => n1 + n2 < 100
