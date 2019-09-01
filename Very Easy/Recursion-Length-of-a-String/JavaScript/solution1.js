@@ -1,0 +1,1 @@
+const length = str => str == '' ? 0 : length(str.substring(1)) + 1;
