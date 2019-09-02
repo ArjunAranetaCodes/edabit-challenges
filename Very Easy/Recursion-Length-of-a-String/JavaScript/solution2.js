@@ -1,0 +1,1 @@
+const length = ({ length }) => length;
