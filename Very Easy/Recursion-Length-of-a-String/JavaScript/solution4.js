@@ -1,0 +1,1 @@
+const length = str => !str ? 0 : 1 + length(str.slice(1));
