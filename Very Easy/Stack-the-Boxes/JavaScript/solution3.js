@@ -1,0 +1,1 @@
+stackBoxes = n => n*n;
