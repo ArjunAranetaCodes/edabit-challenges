@@ -1,0 +1,1 @@
+const volumeOfBox = (sizes) => sizes.width * sizes.length * sizes.height;
