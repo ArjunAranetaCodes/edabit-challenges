@@ -1,0 +1,1 @@
+const getAbsSum = arr => arr.reduce((acc, item) => acc + Math.abs(item), 0)
