@@ -1,0 +1,1 @@
+const filterArray = arr => arr.filter(i => typeof i === 'number')
