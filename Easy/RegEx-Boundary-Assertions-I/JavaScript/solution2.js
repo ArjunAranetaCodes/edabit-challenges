@@ -1,0 +1,1 @@
+const isJS = args => /\.(js|jsx)$/g.test(args)
