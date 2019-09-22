@@ -1,0 +1,1 @@
+doubleChar = str => [...str].map(v => v+v).join``
