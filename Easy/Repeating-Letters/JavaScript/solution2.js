@@ -1,0 +1,1 @@
+let doubleChar = str => str.replace(/./g,'$&$&');
