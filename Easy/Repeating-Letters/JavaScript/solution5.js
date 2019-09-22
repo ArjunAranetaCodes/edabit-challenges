@@ -1,0 +1,1 @@
+doubleChar = s => s.replace(/./g, x => x+x)
