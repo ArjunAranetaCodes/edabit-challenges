@@ -1,0 +1,1 @@
+const calculator = (m,o,n) => o+n === "/0" ? 'Cannot divide by 0!' : eval(m+o+n);
