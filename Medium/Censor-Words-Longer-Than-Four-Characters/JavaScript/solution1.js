@@ -1,0 +1,1 @@
+const censor = str => str.replace(/\w{5,}/g, v => '*'.repeat(v.length));
