@@ -1,0 +1,1 @@
+const toArray = obj => Object.entries(obj);
