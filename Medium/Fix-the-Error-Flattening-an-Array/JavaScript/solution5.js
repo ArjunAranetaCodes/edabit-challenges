@@ -1,0 +1,1 @@
+const flatten = arr =>[].concat(...arr);
