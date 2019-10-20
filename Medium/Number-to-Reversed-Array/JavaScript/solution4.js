@@ -1,0 +1,1 @@
+const reverseArr = n => [...`${n}`].map(Number).reverse();
