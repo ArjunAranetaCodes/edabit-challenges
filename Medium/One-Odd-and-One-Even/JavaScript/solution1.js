@@ -1,0 +1,1 @@
+const oneOddOneEven = n => ~~(n / 10) % 2 !== n % 2;
