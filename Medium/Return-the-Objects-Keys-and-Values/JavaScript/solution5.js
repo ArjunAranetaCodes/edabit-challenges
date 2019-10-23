@@ -1,0 +1,1 @@
+keysAndValues=o=>(f=Object,[f.keys(o),f.values(o)])
