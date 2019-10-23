@@ -1,0 +1,1 @@
+const stripSentence = (s,c) => s.replace(RegExp(`[${c}]`,'g'), '')
