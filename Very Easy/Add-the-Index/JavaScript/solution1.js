@@ -1,0 +1,1 @@
+const addIndexes = arr => arr.map((n,i) => n + i);
