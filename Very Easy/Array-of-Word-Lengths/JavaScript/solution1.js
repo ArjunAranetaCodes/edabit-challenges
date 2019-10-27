@@ -1,0 +1,1 @@
+const wordLengths = arr => arr.map(word => word.length);
