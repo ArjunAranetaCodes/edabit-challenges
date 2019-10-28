@@ -1,0 +1,1 @@
+const getSumOfItems = A => eval(A.join`+`)
