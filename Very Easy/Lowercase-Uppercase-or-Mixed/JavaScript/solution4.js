@@ -1,0 +1,1 @@
+const getCase = str => ["", "lower", "upper", "mixed"][/[a-z]/.test(str) + /[A-Z]/.test(str) * 2];
