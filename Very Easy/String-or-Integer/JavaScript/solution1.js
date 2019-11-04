@@ -1,0 +1,1 @@
+const intOrString = (param) => typeof param === "string" ? "str" : "int"
