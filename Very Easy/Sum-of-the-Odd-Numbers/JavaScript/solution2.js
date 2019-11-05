@@ -1,0 +1,1 @@
+const addOddToN = n => Math.ceil(n / 2) ** 2;
