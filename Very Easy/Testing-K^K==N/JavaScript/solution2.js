@@ -1,0 +1,1 @@
+const kToK = (n, k) => Math.pow(k, k) === n;
