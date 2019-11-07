@@ -1,0 +1,1 @@
+let programmers = (...a) => Math.max(...a) - Math.min(...a);
