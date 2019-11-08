@@ -1,0 +1,1 @@
+const programmers = (x,y,z) => Math.max(x,y,z) - Math.min(x,y,z)
