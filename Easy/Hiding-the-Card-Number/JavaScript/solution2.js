@@ -1,0 +1,1 @@
+const cardHide = card => '*'.repeat(card.length - 4) + card.slice(-4);
