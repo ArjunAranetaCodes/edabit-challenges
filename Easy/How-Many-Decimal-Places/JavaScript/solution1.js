@@ -1,0 +1,1 @@
+const getDecimalPlaces = s => (s.split(".")[1] || []).length;
