@@ -1,0 +1,1 @@
+const cardHide = card => card.split("").fill("*", 0, card.length - 4).join('');
