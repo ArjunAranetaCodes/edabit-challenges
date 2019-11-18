@@ -1,0 +1,1 @@
+isSymmetrical=n=>(""+n).split("").reverse().join("")==n;
