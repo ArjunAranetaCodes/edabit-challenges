@@ -1,0 +1,1 @@
+const getDecimalPlaces = n => [...n.split('.'), ''][1].length
