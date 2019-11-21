@@ -1,0 +1,1 @@
+const REGEXP = /[^a-zA-Z\d\s]/gi
