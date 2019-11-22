@@ -1,0 +1,1 @@
+let removeVowels = s => s.replace(/[aeiou]/gi, '')
