@@ -1,0 +1,1 @@
+factorial = i => i ? i * factorial(i-1) : 1
