@@ -1,0 +1,1 @@
+const factorial = num => num === 1 ? num : num * factorial(num - 1);
