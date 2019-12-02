@@ -1,0 +1,1 @@
+const REGEXP = /([0-9]+[a-zA-Z]*)\s+\S+(?:\s+[a-zA-z]+)/
