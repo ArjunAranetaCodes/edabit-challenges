@@ -1,0 +1,1 @@
+const REGEXP = "[0-9]+( |[A-z] )[A-Z][a-z]+ [A-z][a-z]+";
