@@ -1,0 +1,1 @@
+const str = `[,protocol, host, path] = parsedURL`
