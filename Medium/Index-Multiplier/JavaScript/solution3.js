@@ -1,0 +1,1 @@
+const indexMultiplier = arr => arr.reduce((a,v,i) => a + v*i, 0);
