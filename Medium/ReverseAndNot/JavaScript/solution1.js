@@ -1,0 +1,1 @@
+const reverseAndNot = n => +([...''+n].reverse().join('') + n);
