@@ -1,0 +1,1 @@
+const REGEXP = /x[A-F\d]{2}/g
