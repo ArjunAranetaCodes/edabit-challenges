@@ -1,0 +1,1 @@
+const countSyllables = str => str.match(/[aeiou]/gi).length
