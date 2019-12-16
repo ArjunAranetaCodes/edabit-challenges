@@ -1,0 +1,1 @@
+const countSyllables = s => s.length / 2
