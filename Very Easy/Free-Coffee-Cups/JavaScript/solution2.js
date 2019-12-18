@@ -1,0 +1,1 @@
+const totalCups = n => ~~(n / 6) + n;
