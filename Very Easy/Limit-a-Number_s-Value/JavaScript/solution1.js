@@ -1,0 +1,1 @@
+const limitNumber = (num, min, max) => Math.max(min, Math.min(max, num));
