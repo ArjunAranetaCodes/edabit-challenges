@@ -1,0 +1,1 @@
+const stringInt = s => +s;
