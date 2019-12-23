@@ -1,0 +1,1 @@
+const squaresSum = n => n++ * n * (2 * n - 1) / 6
