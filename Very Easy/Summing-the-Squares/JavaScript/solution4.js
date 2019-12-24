@@ -1,0 +1,1 @@
+const squaresSum = length => Array.from({length}, (_,i) => (i+1) ** 2).reduce((a,b) => a + b, 0);
