@@ -1,3 +1,3 @@
-function limitNumber(num, rangeLow, rangeHigh) {
-	return [...arguments].sort((a, b) => a - b)[1]
+function footballPoints(wins, draws, losses) {
+	return (wins * 3 ) + (draws * 1) + (losses * 0);
 }
