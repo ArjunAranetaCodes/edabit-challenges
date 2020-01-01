@@ -1,3 +1,1 @@
-let limitNumber = (num, rangeLow, rangeHigh) => 
-num < rangeLow ? rangeLow :
-num > rangeHigh ? rangeHigh : num;
+const footballPoints = (a,b,c)=> a*3+b;
