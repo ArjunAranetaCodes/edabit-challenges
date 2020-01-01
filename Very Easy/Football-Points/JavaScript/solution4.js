@@ -1,5 +1,3 @@
-function limitNumber(num, rangeLow, rangeHigh) {
-	if(num < rangeLow) return rangeLow;
-	if(num > rangeHigh) return rangeHigh;
-	return num;
+function footballPoints(wins, draws, losses) {
+	return wins * 3 + draws;
 }
