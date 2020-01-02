@@ -1,3 +1,3 @@
-function footballPoints(wins, draws, losses) {
-		return wins*3 + draws;
+function kmtomiles(kilometers) {
+	return parseFloat((kilometers * 0.621371).toFixed(5))
 }
