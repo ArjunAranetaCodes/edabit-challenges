@@ -1,5 +1,3 @@
-function limitNumber(num, rangeLow, rangeHigh) {
-	var newArr = Array.from(arguments)
-	newArr.sort(function(a, b){return a-b});
-	return newArr[1]
+function footballPoints(wins, draws, losses) {
+	return (wins * 3) + (draws * 1) + (losses * 0)
 }
