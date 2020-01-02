@@ -1,0 +1,1 @@
+const footballPoints = (a,b,c)=> a*3+b;
