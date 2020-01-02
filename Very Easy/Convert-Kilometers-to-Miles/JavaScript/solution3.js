@@ -1,1 +1,3 @@
-const footballPoints = (a,b,c)=> a*3+b;
+function kmtomiles(kilometers) {
+	return +(kilometers*0.621371).toFixed(5)
+}
