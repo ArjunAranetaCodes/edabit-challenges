@@ -1,0 +1,1 @@
+const kmtomiles = km => +(km * 0.62137119).toFixed(5);
