@@ -1,3 +1,1 @@
-function footballPoints(wins, draws, losses) {
-	return (wins * 3) + (draws * 1) + (losses * 0)
-}
+const kmtomiles = km => +(km * 0.62137119).toFixed(5);
