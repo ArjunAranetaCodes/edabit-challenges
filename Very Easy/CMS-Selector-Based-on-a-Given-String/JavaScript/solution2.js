@@ -1,3 +1,3 @@
-function kmtomiles(kilometers){
-	return +(kilometers * 0.621371).toPrecision(6);
+function cmsSelector(arr, str) {
+	return arr.sort().filter((word) => word.toLowerCase().includes(str));
 }
