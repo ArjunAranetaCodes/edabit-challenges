@@ -1,3 +1,3 @@
-function kmtomiles(kilometers) {
-	return +(kilometers*0.621371).toFixed(5)
+function cmsSelector(arr, str) {
+		return arr.sort().filter(item => item.indexOf(str) >= 0)
 }
