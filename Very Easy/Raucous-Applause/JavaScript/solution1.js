@@ -1,1 +1,3 @@
-let cmsSelector =(a,s)=> a.filter(x => x.includes(s)).sort();
+function countClaps(txt) {
+	return txt.match(/C/g).length;
+}
