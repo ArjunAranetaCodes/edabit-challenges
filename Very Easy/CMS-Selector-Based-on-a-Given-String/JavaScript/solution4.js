@@ -1,3 +1,3 @@
-function kmtomiles(kilometers) {
-	return Number.parseFloat((kilometers * 0.621371).toFixed(5));
+function cmsSelector(arr, str) {
+	return arr.filter(cms => cms.includes(str)).sort();
 }
