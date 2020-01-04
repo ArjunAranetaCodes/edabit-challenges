@@ -1,0 +1,1 @@
+let cmsSelector =(a,s)=> a.filter(x => x.includes(s)).sort();
