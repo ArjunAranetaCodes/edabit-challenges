@@ -1,3 +1,1 @@
-function cmsSelector(arr, str) {
-		return arr.sort().filter(item => item.indexOf(str) >= 0)
-}
+const countClaps = txt => txt.match(/C/g).length
