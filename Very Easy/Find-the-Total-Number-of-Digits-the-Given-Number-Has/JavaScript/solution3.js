@@ -1,0 +1,1 @@
+const countClaps = txt => txt.match(/C/g).length
