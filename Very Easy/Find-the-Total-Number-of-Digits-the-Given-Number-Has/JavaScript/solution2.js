@@ -1,3 +1,1 @@
-function countClaps(txt) {
-	return txt.split("C").length-1;
-}
+const findDigitAmount = num => String(num).length;
