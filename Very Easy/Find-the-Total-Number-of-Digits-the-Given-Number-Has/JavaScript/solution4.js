@@ -1,3 +1,1 @@
-function countClaps(str) {
-	return str.split("C").length - 1
-}
+findDigitAmount=n=>(''+n).length
