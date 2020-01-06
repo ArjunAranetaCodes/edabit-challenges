@@ -1,1 +1,3 @@
-const countClaps = txt => txt.match(/C/g).length
+function findDigitAmount(num) {
+	return num.toString().length;
+}
