@@ -1,3 +1,3 @@
-function countClaps(txt) {
-	return txt.match(/C/g).length;
+function findDigitAmount(num) {
+	return num.toString().length;
 }
