@@ -1,6 +1,3 @@
-function countClaps(txt) {
-
-  const re = /C/g;
-  return ((txt || '').match(re) || []).length;
-
+function findDigitAmount(num) {
+	return (String(num)).length
 }
