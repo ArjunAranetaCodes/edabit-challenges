@@ -1,0 +1,1 @@
+const findDigitAmount = num => String(num).length;

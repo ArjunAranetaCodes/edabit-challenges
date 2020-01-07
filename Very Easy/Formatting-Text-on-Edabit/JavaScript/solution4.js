@@ -1,0 +1,1 @@
+findDigitAmount=n=>(''+n).length
