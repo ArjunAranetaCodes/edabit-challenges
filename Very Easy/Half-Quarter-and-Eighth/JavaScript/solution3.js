@@ -1,4 +1,1 @@
-function mdFormat(word, style) {
-	let obj = {b: '**', i: '_',	c: '`',	s: '~~'};
-	return obj[style] + word + obj[style];
-}
+const halfQuarterEighth = n => [n/2, n/4, n/8];
