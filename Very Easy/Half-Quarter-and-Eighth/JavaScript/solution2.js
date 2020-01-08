@@ -1,2 +1,3 @@
-const mdFormat = (w,s) =>
-  `${c = { b: '**', i: '_', c: '`', s: '~~' }[s]}${w}${c}`
+const halfQuarterEighth = (n) => {
+	return [n/2, n/4, n/8];
+}
