@@ -1,4 +1,3 @@
-function mdFormat(word, style) {
-	const surround = {b: "**", i: "_", c: "`", s: "~~"}[style];
-	return `${surround}${word}${surround}`;
+const halfQuarterEighth = (n) => {
+	return [n/2, n/4, n/8]
 }
