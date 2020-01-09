@@ -1,3 +1,3 @@
-const halfQuarterEighth = (n) => {
-	return [n/2, n/4, n/8]
+function countWords(str){  
+ return str.split(' ').length;
 }
