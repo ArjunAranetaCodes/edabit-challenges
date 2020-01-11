@@ -1,0 +1,1 @@
+const isValid = zip => /^\d{5}$/.test(zip);
