@@ -1,0 +1,1 @@
+const myPi = n => +Math.PI.toFixed(n);
