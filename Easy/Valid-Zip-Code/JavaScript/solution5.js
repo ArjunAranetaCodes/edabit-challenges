@@ -1,3 +1,3 @@
-function myPi(n) {
-  return parseFloat(Math.PI.toFixed(n));
+function isValid(zip) {
+	return !isNaN(zip) && zip.length === 5
 }
