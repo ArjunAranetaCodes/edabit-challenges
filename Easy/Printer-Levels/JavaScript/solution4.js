@@ -1,4 +1,3 @@
-function isValid(zip) {
-var regexTest = RegExp(/[0-9]{5}/);
-	return regexTest.test(zip)
+function inkLevels(inks) {
+	return Math.min(inks.cyan, inks.magenta, inks.yellow)
 }
