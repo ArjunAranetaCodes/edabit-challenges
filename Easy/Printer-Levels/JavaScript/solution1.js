@@ -1,1 +1,1 @@
-const isValid = zip => /^\d{5}$/.test(zip);
+const inkLevels = inks => Math.min(...Object.values(inks));
