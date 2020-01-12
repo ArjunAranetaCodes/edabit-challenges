@@ -1,3 +1,4 @@
-function isValid(zip) {
-	return !isNaN(zip) && zip.length === 5
+function inkLevels(inks) {
+return Math.min(...Object.values(inks)) 
+
 }
