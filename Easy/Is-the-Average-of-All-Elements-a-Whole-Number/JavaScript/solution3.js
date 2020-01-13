@@ -1,1 +1,3 @@
-const inkLevels = inks => Math.min(...Object.values(inks));
+function isAvgWhole(arr) {
+	return !(arr.reduce(function(a,b){return a + b}) % arr.length);
+}
