@@ -1,3 +1,1 @@
-function inkLevels(inks) {
-	return Math.min(inks.cyan, inks.magenta, inks.yellow)
-}
+const isAvgWhole = A => !(eval(A.join`+`) / A.length % 1)
