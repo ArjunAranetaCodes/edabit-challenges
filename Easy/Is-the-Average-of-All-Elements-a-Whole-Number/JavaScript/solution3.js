@@ -1,0 +1,1 @@
+const inkLevels = inks => Math.min(...Object.values(inks));
