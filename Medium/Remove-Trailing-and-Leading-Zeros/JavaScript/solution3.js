@@ -1,3 +1,2 @@
-const reverseAndNot = number => (
-	+([...`${number}`].reverse().join("") + number)
-);
+const removeLeadingTrailing = n =>
+ parseFloat(n).toString();
