@@ -1,2 +1,4 @@
-const reverseAndNot = i =>
- +(i.toString().split('').reverse().join('') + i);
+function removeLeadingTrailing(n) {
+	//Number(n)
+	return +((n.match(/[1-9]\d*|(?=\.)\.\d*[1-9]/g)||[]).join(''))
+}
