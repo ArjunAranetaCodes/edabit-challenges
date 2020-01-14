@@ -1,0 +1,1 @@
+const removeLeadingTrailing = n => ''+(+n);
