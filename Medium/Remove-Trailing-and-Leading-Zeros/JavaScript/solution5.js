@@ -1,3 +1,3 @@
-function reverseAndNot(i) {
-	return parseInt(i.toString().split('').reverse().join('').concat(i));
+function removeLeadingTrailing(n) {
+	return  parseFloat(n);
 }
