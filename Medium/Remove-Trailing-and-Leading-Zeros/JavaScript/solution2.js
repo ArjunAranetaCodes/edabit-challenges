@@ -1,3 +1,3 @@
-function reverseAndNot(i) {
-	return parseInt(i.toString().split('').reverse().join('')+i);
+function removeLeadingTrailing(n) {
+	return Math.abs(n);
 }
