@@ -1,4 +1,1 @@
-function removeLeadingTrailing(n) {
-	//Number(n)
-	return +((n.match(/[1-9]\d*|(?=\.)\.\d*[1-9]/g)||[]).join(''))
-}
+countOnes = i => (i.toString(2).match(/1/g)||[]).length
