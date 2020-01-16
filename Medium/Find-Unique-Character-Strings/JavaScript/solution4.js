@@ -1,1 +1,3 @@
-countOnes = i => (i.toString(2).match(/1/g)||[]).length
+function filterUnique(arr) {
+	return arr.filter(value =>  value === value.split("").reduce((acc , character) => ( acc.includes(character) ) ? acc : acc.concat([character])));
+}
