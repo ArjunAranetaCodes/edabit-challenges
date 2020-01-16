@@ -1,3 +1,3 @@
-function countOnes(i) {
-  return i.toString(2).split('').filter((c)=>c==1).length
+function filterUnique(arr) {
+	return arr.filter(a => new Set(a.split('')).size === a.length);
 }
