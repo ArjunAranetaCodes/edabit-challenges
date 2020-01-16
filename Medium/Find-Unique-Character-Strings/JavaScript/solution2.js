@@ -1,4 +1,2 @@
-function countOnes(i) {
-  i = i.toString(2);
-	return i.split('1').length-1;
-}
+const filterUnique = arr =>
+arr.filter(x => new Set(x).size === x.length);
