@@ -1,5 +1,8 @@
-function era(er, ip) {
-	const era = er / ip * 9;
-	return era % 1 === 0 ?
-		era.toFixed(2) : String(era).match(/^.{4}/).join("");
+function uncensor(str, vowels) {
+	str = str.split("");
+	vowels = vowels.split("");
+	for (let i = 0; i < vowels.length; i++) {
+		str[str.indexOf("*")] = vowels[i];
+	}
+	return str.join("");
 }
