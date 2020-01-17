@@ -1,3 +1,6 @@
-function era(er, ip) {
-	return (9*er/ip).toFixed(3).slice(0,4);
+function uncensor(str, vowels) {
+	for (let i=0;i<vowels.length; i++){
+		str = str.replace('*', vowels[i])
+	}
+ return str
 }
