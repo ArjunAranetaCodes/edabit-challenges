@@ -1,11 +1,14 @@
-function era(er, ip) {
-	var newNum = Number.parseFloat((er / ip) * 9)
-	var dotInd = newNum.toString().indexOf(".")
-	var strNum = ""
-	if(dotInd > 0){
-		strNum = newNum.toString().substring(0, dotInd + 3)
-	}else{
-		strNum = newNum.toFixed(2).toString()
-	}
-	return strNum
+function uncensor(str, vowels) {
+    let vowel_i = 0;
+    let new_str = ""
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] == "*") {
+            new_str = new_str + vowels[vowel_i]
+            vowel_i += 1;
+        }
+        else {
+            new_str = new_str + str[i]
+        }
+    }
+    return new_str
 }
