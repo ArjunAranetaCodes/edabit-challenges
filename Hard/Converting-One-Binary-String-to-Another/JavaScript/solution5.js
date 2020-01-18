@@ -1,8 +1,8 @@
-function uncensor(str, vowels) {
-	str = str.split("");
-	vowels = vowels.split("");
-	for (let i = 0; i < vowels.length; i++) {
-		str[str.indexOf("*")] = vowels[i];
+function minSwaps(s1, s2) {
+	var c = 0;
+	for (var i = 0; i < s1.length; i++) {
+		if (s1.charAt(i) != s2.charAt(i))
+			c++;
 	}
-	return str.join("");
+	return c / 2;
 }
