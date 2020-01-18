@@ -1,6 +1,2 @@
-function uncensor(str, vowels) {
-	for (let i=0;i<vowels.length; i++){
-		str = str.replace('*', vowels[i])
-	}
- return str
-}
+const minSwaps = (s1, s2) =>
+  ((parseInt(s1, 2) ^ parseInt(s2, 2)).toString(2).match(/1/g) || []).length / 2;
