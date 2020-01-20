@@ -1,3 +1,3 @@
-function isAvgWhole(arr) {
-	return !(arr.reduce(function(a,b){return a + b}) % arr.length);
+function smashFactor(bs, cs) {
+ return parseFloat(Number.parseFloat(bs/cs).toFixed(2))
 }
