@@ -1,0 +1,1 @@
+const isAvgWhole = A => !(eval(A.join`+`) / A.length % 1)
