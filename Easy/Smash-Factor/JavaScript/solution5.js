@@ -1,1 +1,3 @@
-const isAvgWhole = arr => (arr.reduce((a, b) => a + b) / arr.length) % 1 === 0;
+function smashFactor(bs, cs) {
+	return parseFloat((bs/cs).toFixed(2))
+}
