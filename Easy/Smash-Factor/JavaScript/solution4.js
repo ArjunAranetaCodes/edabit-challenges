@@ -1,1 +1,3 @@
-const isAvgWhole = A => !(eval(A.join`+`) / A.length % 1)
+function smashFactor(bs, cs) {
+	return +(bs / cs).toFixed(2);
+}
