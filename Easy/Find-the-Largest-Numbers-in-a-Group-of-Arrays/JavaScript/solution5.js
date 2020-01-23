@@ -1,3 +1,5 @@
-function formatPhoneNumber(numbers) {
-  return `(${numbers.slice(0,3).join("")}) ${numbers.slice(3,6).join("")}-${numbers.slice(6).join("")}`
+function findLargestNums(arr) {
+  return arr.reduce(function(a, b) {
+  	return a.concat(Math.max.apply(Math, b));
+  }, []);
 }
