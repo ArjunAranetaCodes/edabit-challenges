@@ -1,3 +1,3 @@
-function formatPhoneNumber(numbers) {
-   return numbers.join('').replace(/(...)(...)(.*)/, '($1) $2-$3');
+function findLargestNums(arr) {
+  return arr.map(a => Math.max(...a));
 }
