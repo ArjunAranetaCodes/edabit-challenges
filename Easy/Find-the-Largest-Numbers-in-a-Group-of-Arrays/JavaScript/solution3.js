@@ -1,5 +1,3 @@
-function formatPhoneNumber(numbers) {
-  let masked = '(###) ###-####';
-  numbers.forEach(v => masked = masked.replace("#", v));
-  return masked;
+function findLargestNums(arr) {
+  return arr.map( x => Math.max(...x));
 }
