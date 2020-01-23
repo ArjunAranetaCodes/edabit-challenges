@@ -1,6 +1,10 @@
-function formatPhoneNumber(numbers) {
-  numbers.splice(0,0,'(');
-  numbers.splice(4,0,') ');
-  numbers.splice(8,0,'-');
-  return numbers.join('');
+function findLargestNums(arr) {
+	var newHigh = []
+	for(var x = 0; x < arr.length; x++){
+		var arrNums = arr[x]
+		arrNums.sort(function(a, b){return b-a});
+		newHigh.push(arrNums[0])
+	}
+	
+	return newHigh
 }
