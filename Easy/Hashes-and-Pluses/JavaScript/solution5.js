@@ -1,5 +1,5 @@
-function findLargestNums(arr) {
-  return arr.reduce(function(a, b) {
-  	return a.concat(Math.max.apply(Math, b));
-  }, []);
+function hashPlusCount(str) {
+	var h=0, p=0;
+	str.split("").map(x=> x === "#" ? h++ : p++)
+	return [h,p]
 }
