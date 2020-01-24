@@ -1,3 +1,2 @@
-function findLargestNums(arr) {
-  return arr.map( x => Math.max(...x));
-}
+let hashPlusCount=([...str])=>
+[str.filter(x=>x=='#').length,str.filter(x=>x=='+').length]
