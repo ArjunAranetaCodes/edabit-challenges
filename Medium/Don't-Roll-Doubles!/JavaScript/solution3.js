@@ -1,3 +1,2 @@
-function filterUnique(arr) {
-	return arr.filter(a => new Set(a.split('')).size === a.length);
-}
+const diceGame = a => 
+ a.every(i => i[0] !== i[1]) ? a.flat(Infinity).reduce((a,b) => a + b) : 0;
