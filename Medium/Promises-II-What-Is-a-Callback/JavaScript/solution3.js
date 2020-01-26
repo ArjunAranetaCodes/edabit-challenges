@@ -1,2 +1,12 @@
-const diceGame = a => 
- a.every(i => i[0] !== i[1]) ? a.flat(Infinity).reduce((a,b) => a + b) : 0;
+function anotherFunc(cb) {
+	let str = "bye"
+	setTimeout(() => {
+		cb(str)
+	}, 100)
+}
+
+var doc = "hello"
+
+function callback(str) {
+	doc = str
+}
