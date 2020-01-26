@@ -1,6 +1,12 @@
-function diceGame(arr) {
-		for(let i of arr){
-		if(i[0] == i[1]) return 0;
-	}
-		 return arr.flat().reduce((c,i) => c + i, 0);
+function anotherFunc(callback) {
+	let str = "bye"
+	setTimeout(() => {
+		callback(str)
+	}, 100)
+}
+
+var doc = "hello"
+
+function callback(str) {
+	doc = str
 }
