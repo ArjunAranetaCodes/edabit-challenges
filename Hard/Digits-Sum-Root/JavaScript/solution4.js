@@ -1,0 +1,1 @@
+const minSwaps = (a,b) => [...a].filter((e,i) => e!==b[i]).length/2
