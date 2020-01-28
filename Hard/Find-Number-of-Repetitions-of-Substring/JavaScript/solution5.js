@@ -1,2 +1,5 @@
-const rootDigit = n =>
-	BigInt(n) < 10n ? Number(n) : rootDigit([...''+n].reduce((a,v) => +v+a, 0));
+function numberOfRepeats(str) {
+	let i = str.length-str.lastIndexOf(str[0]);
+  let sub = str.slice(0,i);
+  return str.replace(RegExp(`(${sub})`,'gi'),'x').length
+}
