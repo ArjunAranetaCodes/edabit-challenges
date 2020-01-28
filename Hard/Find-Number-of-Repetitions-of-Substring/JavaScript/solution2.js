@@ -1,1 +1,3 @@
-const rootDigit = n => n && (+`${BigInt(n) % 9n}` || 9);
+function numberOfRepeats(str) {
+  return str.length / new Set(str).size;
+}
