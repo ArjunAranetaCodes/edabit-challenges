@@ -1,0 +1,1 @@
+const rootDigit = n => n && (+`${BigInt(n) % 9n}` || 9);
