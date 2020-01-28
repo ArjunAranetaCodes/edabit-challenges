@@ -1,12 +1,5 @@
-function rootDigit(n) {
-	var arrN = n.toString().split("")
-	var sum = 0
-	while(arrN.length > 1){
-		sum = 0
-		for(var x= 0; x < arrN.length; x++){
-			sum = sum + parseInt(arrN[x])
-		}
-		arrN = sum.toString().split("")		
-	}
-	return sum
+function numberOfRepeats(str) {
+	for (let i=1;; i++)
+		if (str.replace(new RegExp(str.substring(0,i),"g"),"")=="")
+			return str.length/i;
 }
