@@ -1,17 +1,19 @@
-function getHashTags(str) {
-	return str.toLowerCase()
-		.replace(/[,.?]/g,'')
-		.split(/\s+/)
-	  .map(function(x,i){
-		  return [x,i];
-	  })
-		.sort(function(a,b){
-		  var c = b[0].length - a[0].length; 
-		  if (c != 0) return c;
-		  return a[1]-b[1];
-	  })
-		.slice(0,3)
-	  .map(function(x) {
-		  return '#'+x[0];
-	  });
+function happy(n) {
+	var arrNum = n.toString().split("")
+	var proceed = true
+	while(proceed){
+		var sum = 0
+		for(var x = 0; x < arrNum.length; x++){
+			sum = sum + Math.pow(parseInt(arrNum[x]), 2)
+		}
+		arrNum = sum.toString().split("")
+		if(sum.toString().includes("4")){
+			return false
+			proceed = false
+		}else if(sum.toString() === "1"){
+			return true
+			proceed = false
+		}
+	}
+	return false
 }
