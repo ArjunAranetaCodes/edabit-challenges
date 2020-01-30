@@ -1,2 +1,1 @@
-let hashPlusCount=([...str])=>
-[str.filter(x=>x=='#').length,str.filter(x=>x=='+').length]
+const isOmnipresent = (arr, val) => arr.every(x => x.includes(val));
