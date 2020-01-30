@@ -1,3 +1,3 @@
-function hashPlusCount(str) {
-	return [str.split('+').join('').length, str.split('#').join('').length]
+function isOmnipresent(arr, val) {
+	return arr.every( a => a.includes(val) );
 }
