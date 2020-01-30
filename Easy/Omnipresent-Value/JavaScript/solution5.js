@@ -1,5 +1,1 @@
-function hashPlusCount(str) {
-	var h=0, p=0;
-	str.split("").map(x=> x === "#" ? h++ : p++)
-	return [h,p]
-}
+const isOmnipresent = (a, v) => a.every(x => x.includes(v))
