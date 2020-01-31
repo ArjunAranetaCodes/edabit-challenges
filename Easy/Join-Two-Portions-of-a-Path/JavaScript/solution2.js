@@ -1,3 +1,3 @@
-function isOmnipresent(arr, val) {
-	return arr.every( a => a.includes(val) );
+function joinPath(portion1, portion2) {
+return `${portion1}/${portion2}`.replace(/\/+/,'/')
 }
