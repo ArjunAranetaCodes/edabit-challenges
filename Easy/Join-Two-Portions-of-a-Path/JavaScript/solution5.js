@@ -1,0 +1,1 @@
+const isOmnipresent = (a, v) => a.every(x => x.includes(v))

@@ -1,0 +1,1 @@
+const isOmnipresent = (arr, val) => arr.every(subArr => subArr.includes(val));
