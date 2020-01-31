@@ -1,1 +1,2 @@
-const isOmnipresent = (arr, val) => arr.every(x => x.includes(val));
+const joinPath = (portion1, portion2) => 
+portion1.replace(/\//, '') + "/" + portion2.replace(/\//, '');
