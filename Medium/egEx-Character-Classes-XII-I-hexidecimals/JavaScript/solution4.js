@@ -1,12 +1,1 @@
-function anotherFunc(callback) {
-	let str = "bye"
-	setTimeout(() => {
-		callback(str)
-	}, 100)
-}
-
-var doc = "hello"
-
-function callback(str) {
-	doc = str
-}
+const REGEXP = /\x65\x64\x61\x62\x69\x74/g
