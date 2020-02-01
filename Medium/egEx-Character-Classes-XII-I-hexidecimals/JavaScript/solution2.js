@@ -1,10 +1,1 @@
-function anotherFunc(cb) {
-  let str = "bye";
-  setTimeout(cb, 100, "bye");
-}
-
-var doc = "hello";
-
-function callback(str) {
-  doc = str;
-}
+const REGEXP = /\u0065\u0064\u0061\u0062\u0069\u0074/g
