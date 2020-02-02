@@ -1,1 +1,3 @@
-const REGEXP = /\u0065\u0064\u0061\u0062\u0069\u0074/g
+function testJackpot(result) {
+  return result.every(x => x === result[0]);	
+}
