@@ -1,1 +1,9 @@
-const REGEXP = /\x65\x64\x61\x62\x69\x74/g
+function testJackpot(result) {
+	var ref = result[0]
+	for(var x = 0; x < result.length; x++){
+		if(result[x] !== ref){
+			return false
+		}
+	}
+	return true
+}
