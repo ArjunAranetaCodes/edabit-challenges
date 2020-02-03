@@ -1,3 +1,5 @@
-function numberOfRepeats(str) {
-  return str.length / new Set(str).size;
-}
+let errorLog = {}
+
+let promise = new Promise((resolve, reject) => {
+    throw new Error('Something failed');
+}).catch(e => errorLog = e);
