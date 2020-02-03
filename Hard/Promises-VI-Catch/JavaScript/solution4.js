@@ -1,4 +1,5 @@
-function numberOfRepeats(str) {
-	var pattern = new RegExp(str[0] + str[1], "g");
-	return (str.match(pattern) || []).length
-}
+let errorLog = {}
+
+let promise = new Promise((resolve, reject) => {
+    throw new Error('Something failed');
+}).catch(err => errorLog = err)
