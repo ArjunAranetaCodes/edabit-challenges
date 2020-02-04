@@ -1,5 +1,2 @@
-let errorLog = {}
-
-let promise = new Promise((resolve, reject) => {
-    throw new Error('Something failed');
-}).catch(err => errorLog = err)
+const findBrokenKeys = (s1, s2) =>
+ [...new Set([...s1+''].filter((a,b)=> a !== s2[b]))];
