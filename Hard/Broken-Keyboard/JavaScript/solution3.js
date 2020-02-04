@@ -1,7 +1,3 @@
-let errorLog = {}
-
-let promise = new Promise((resolve, reject) => {
-   
-}, function(){
-	 throw new Error('Something failed');
-})
+function findBrokenKeys(str1, str2) {
+	return [...new Set([...str1].filter((val, i) => val !== str2[i]))]
+}
