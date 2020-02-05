@@ -1,1 +1,3 @@
-countWords = s => s.split` `.length
+function equation(s) {
+	return eval(s);
+}

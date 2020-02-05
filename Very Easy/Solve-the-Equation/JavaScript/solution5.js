@@ -1,3 +1,3 @@
-function countWords(str){  
- return str.split(' ').length;
+function equation(s) {
+	return eval(s)
 }
