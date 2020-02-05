@@ -1,0 +1,1 @@
+countWords = s => s.split` `.length
