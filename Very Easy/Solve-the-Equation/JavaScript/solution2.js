@@ -1,1 +1,3 @@
-const countWords = str => str.split(' ').length;
+function equation(s) {
+	return eval(s);
+}
