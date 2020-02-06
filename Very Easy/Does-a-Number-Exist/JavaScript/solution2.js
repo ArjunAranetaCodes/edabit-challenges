@@ -1,3 +1,3 @@
-function equation(s) {
-	return eval(s);
+function validStrNumber(n) {
+	return isNaN(n) ? false : true;
 }
