@@ -1,3 +1,1 @@
-function equation(s) {
-	return eval(s);
-}
+const validStrNumber = str => !Number.isNaN(Number(str));
