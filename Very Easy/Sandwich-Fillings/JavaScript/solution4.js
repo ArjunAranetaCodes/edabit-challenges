@@ -1,1 +1,3 @@
-const validStrNumber = str => !Number.isNaN(Number(str));
+function getFillings(sandwich) {
+	return sandwich.slice(1,sandwich.length-1)
+}
