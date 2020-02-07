@@ -1,3 +1,5 @@
-function validStrNumber(n) {
-	return isNaN(n) ? false : true;
+function getFillings(sandwich) {
+	sandwich.pop();
+	sandwich.shift();
+	return sandwich;
 }
