@@ -1,0 +1,1 @@
+const validStrNumber = str => !Number.isNaN(Number(str));
