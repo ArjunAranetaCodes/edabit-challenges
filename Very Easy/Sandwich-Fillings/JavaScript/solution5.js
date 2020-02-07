@@ -1,7 +1,1 @@
-function validStrNumber(n) {
-	if(isNaN(n)){
-		return false
-	}else{
-		return true
-	}
-}
+const getFillings = sandwich => sandwich.slice(1, -1);
