@@ -1,3 +1,1 @@
-function validStrNumber(n) {
-	return !isNaN(n);
-}
+const getFillings = sandwich => sandwich.filter(ingredient => ingredient !== "bread")
