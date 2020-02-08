@@ -1,3 +1,7 @@
-function joinPath(portion1, portion2) {
-return `${portion1}/${portion2}`.replace(/\/+/,'/')
+function toArray(num) {
+	return [...num.toString()].map(s => Number(s))
+}
+
+function toNumber(arr) {
+	return Number(arr.join(""))
 }
