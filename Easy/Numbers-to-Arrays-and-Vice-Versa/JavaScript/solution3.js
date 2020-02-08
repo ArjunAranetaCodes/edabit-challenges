@@ -1,2 +1,7 @@
-const joinPath = (portion1, portion2) => 
-portion1.replace(/\//, '') + "/" + portion2.replace(/\//, '');
+function toArray(num) {
+	return String(num).split("").map(Number);
+}
+
+function toNumber(arr) {
+	return parseInt(arr.join(""))
+}
