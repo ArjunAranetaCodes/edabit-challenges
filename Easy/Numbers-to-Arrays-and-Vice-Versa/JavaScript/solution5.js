@@ -1,0 +1,1 @@
+const joinPath = (...portions) => portions.map(portion => portion.replace(/\//g, '')).join('/');
