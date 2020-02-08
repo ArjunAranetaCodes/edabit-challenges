@@ -1,1 +1,7 @@
-const joinPath = (...portions) => portions.map(portion => portion.replace(/\//g, '')).join('/');
+function toArray(num) {
+	return num.toString().split("").map(x=>x=Number(x));
+}
+
+function toNumber(arr) {
+	return Number(arr.join(""));
+}
