@@ -1,7 +1,4 @@
-function toArray(num) {
-	return String(num).split("").map(Number);
-}
-
-function toNumber(arr) {
-	return parseInt(arr.join(""))
+function highLow(str) {
+  str = str.split(" ")
+  return Math.max(...str) + " " + Math.min(...str) 
 }
