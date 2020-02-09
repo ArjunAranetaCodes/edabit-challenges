@@ -1,3 +1,7 @@
 function highLow(str) {
-  return Math.max(...str.split(' ')) + ' ' + Math.min(...str.split(' '));
+  const num = str.split(' ');
+  return [
+    Math.max(...num),
+    Math.min(...num),
+  ].join(' ');
 }
