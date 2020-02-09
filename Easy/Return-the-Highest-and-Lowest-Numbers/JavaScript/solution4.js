@@ -1,12 +1,4 @@
-function toArray(num) {
-	var arrNum = num.toString().split("")
-	var newArr = []
-	for(var x = 0; x < arrNum.length; x++){
-		newArr.push(parseInt(arrNum[x]))
-	}
-	return newArr
-}
-
-function toNumber(arr) {
-	return parseInt(arr.join(""))
+function highLow(str) {
+  let a = str.split(' ').map((x) => +x);
+  return Math.max(...a) + ' ' + Math.min(...a);
 }
