@@ -1,7 +1,4 @@
-function highLow(str) {
-  const num = str.split(' ');
-  return [
-    Math.max(...num),
-    Math.min(...num),
-  ].join(' ');
+function sortNumsAscending(arr) {
+  if (arr === null) return [];
+  return arr.sort((a, b) => a - b);
 }
