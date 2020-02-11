@@ -1,0 +1,1 @@
+const testJackpot = arr => new Set(arr).size === 1;

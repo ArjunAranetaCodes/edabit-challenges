@@ -1,0 +1,1 @@
+const testJackpot = result => result.every(v => v===result[0])
