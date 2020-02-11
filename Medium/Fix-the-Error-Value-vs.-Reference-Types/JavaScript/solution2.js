@@ -1,3 +1,3 @@
-function testJackpot(result) {
-  return result.every(x => x === result[0]);	
+function checkEquals(arr1, arr2) {
+	return arr1.toString() == arr2.toString();
 }
