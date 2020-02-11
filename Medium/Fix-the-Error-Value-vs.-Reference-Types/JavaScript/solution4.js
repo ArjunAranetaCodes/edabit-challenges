@@ -1,1 +1,1 @@
-const testJackpot = result => result.every(v => v===result[0])
+const checkEquals = (a, b) => a.join(",") == b.join(",")
