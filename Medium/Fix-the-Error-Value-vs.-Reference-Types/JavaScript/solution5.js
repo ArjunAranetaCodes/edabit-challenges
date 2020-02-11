@@ -1,9 +1,7 @@
-function testJackpot(result) {
-	var ref = result[0]
-	for(var x = 0; x < result.length; x++){
-		if(result[x] !== ref){
-			return false
-		}
-	}
-	return true
+function checkEquals(arr1, arr2) {
+	if (arr1.join() === arr2.join()) {
+  	return true 
+  } else {
+  	return false
+  }
 }
