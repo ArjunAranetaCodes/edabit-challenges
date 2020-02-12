@@ -1,0 +1,1 @@
+const getFillings = sandwich => sandwich.filter(ingredient => ingredient !== "bread")
