@@ -1,5 +1,11 @@
-function monthName(num) {
-	let monthArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-	let month = monthArray[num -1]
-	return month
-	}
+function numberSyllables(word) {
+  let count = 1;
+  for (let i = 0; i < word.length; i++) {
+
+    if (word[i] === '-') {
+      count += 1
+    }
+
+  }
+  return count
+}
