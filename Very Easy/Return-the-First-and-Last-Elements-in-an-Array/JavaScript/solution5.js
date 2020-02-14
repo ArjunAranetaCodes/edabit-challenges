@@ -1,3 +1,1 @@
-function numberSyllables(word) {
-		return (word.split('-')).length;
-}
+const firstLast = arr => [arr.shift(), arr.pop()];
