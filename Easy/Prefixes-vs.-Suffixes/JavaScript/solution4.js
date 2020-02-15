@@ -1,0 +1,1 @@
+const sortNumsAscending = n => n ? n.sort((a,b ) => a - b) : []
