@@ -1,7 +1,3 @@
-function isPrefix(word, prefix) {
-	return word.startsWith(prefix.replace("-", ""));
-}
-
-function isSuffix(word, suffix) {
-	return word.endsWith(suffix.replace("-", ""));
+function sortDescending(num) {
+  return Number(num.toString().split('').sort((a, b) => b - a).join(''));
 }
