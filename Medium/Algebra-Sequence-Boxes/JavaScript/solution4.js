@@ -1,1 +1,1 @@
-const checkEquals = (a, b) => a.join(",") == b.join(",")
+const boxSeq=s=>s%2?s+2:s
