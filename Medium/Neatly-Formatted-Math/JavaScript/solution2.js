@@ -1,3 +1,3 @@
-function boxSeq(step){
-	return step + (step%2 * 2)
+function formatMath(expr) {
+	return `${expr} = ${eval(expr.replace("x", "*"))}`
 }
