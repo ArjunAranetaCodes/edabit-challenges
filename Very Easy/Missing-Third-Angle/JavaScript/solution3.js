@@ -1,0 +1,1 @@
+const firstLast = ([first, ...rest]) => [first, rest.pop()];
