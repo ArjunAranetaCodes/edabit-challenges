@@ -1,0 +1,1 @@
+const boxSeq = step => step + (step % 2 ? 2 : 0);

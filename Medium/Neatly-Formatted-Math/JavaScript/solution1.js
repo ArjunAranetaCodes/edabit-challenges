@@ -1,0 +1,1 @@
+const formatMath = expr => `${expr} = ${eval(expr.replace(/x/,'*'))}`;
