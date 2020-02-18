@@ -1,1 +1,1 @@
-const boxSeq = step => step + (step % 2 ? 2 : 0);
+const formatMath = expr => `${expr} = ${eval(expr.replace("x", "*"))}`;
