@@ -1,3 +1,5 @@
-function firstLast(arr) {
-	return [arr[0], arr[arr.length-1]]
+function missingAngle(angle1, angle2) {
+	return angle1 + angle2 < 90 ? 'obtuse'
+		: angle1 + angle2 > 90 ? 'acute'
+		: 'right';
 }
