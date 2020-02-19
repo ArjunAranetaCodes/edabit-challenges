@@ -1,5 +1,3 @@
-function firstLast(arr) {
-	let first = arr.shift();
-	let last = arr.pop();
-	return [first, last];
+function missingAngle(angle1, angle2) {
+	return 180 - angle1 - angle2 < 90 ? "acute" : 180 - angle1 - angle2 === 90 ? "right" : "obtuse";
 }
