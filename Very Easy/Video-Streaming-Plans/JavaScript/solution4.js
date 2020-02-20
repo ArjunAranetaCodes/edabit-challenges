@@ -1,3 +1,21 @@
-function missingAngle(angle1, angle2) {
-	return 180 - angle1 - angle2 < 90 ? "acute" : 180 - angle1 - angle2 === 90 ? "right" : "obtuse";
+class BasicPlan {
+	static canStream = true;
+	static canDownload = true;
+	static numOfDevices = 1;
+	static hasSD = true;
+	static hasHD = false;
+	static hasUHD = false;
+	static price = '$8.99';
+}
+
+class StandardPlan extends BasicPlan {
+	static numOfDevices = 2;
+	static hasHD = true;
+	static price = '$12.99';
+}
+
+class PremiumPlan extends StandardPlan {
+	static numOfDevices = 4;
+	static hasUHD = true;
+	static price = '$15.99';
 }
