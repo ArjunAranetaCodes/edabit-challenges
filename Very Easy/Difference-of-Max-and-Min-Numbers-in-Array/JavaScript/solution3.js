@@ -1,22 +1,13 @@
-class BasicPlan {
-	static canStream = true;
-	static canDownload = true;
-	static numOfDevices = 1;
-	static hasSD = true;
-	static hasHD = false;
-	static hasUHD = false;
-	static price = '$8.99';
-}
-
-class StandardPlan extends BasicPlan {
-	static numOfDevices = 2;
-	static hasHD = true;
-	static price = '$12.99';
-}
-
-class PremiumPlan extends BasicPlan {
-	static numOfDevices = 4;
-	static hasHD = true;
-	static hasUHD = true;
-	static price = '$15.99';
+function diffMaxMin(arr) {
+	var largest = arr[0];
+	var smallest = arr[0];
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] > largest) {
+			largest = arr[i]
+		}
+		if (arr[i] < smallest) {
+			smallest = arr[i];
+		}
+	}
+	return largest - smallest;
 }
