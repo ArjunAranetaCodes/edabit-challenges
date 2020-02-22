@@ -1,2 +1,3 @@
-sortDescending = n =>
-	+[...n+''].sort().reverse().join``
+function leftDigit(num) {
+	return Number(num.match(/[0-9]/)[0])
+}
