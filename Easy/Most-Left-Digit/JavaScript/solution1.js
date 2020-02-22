@@ -1,0 +1,1 @@
+const leftDigit = num => +num.match`\\d`[0];
