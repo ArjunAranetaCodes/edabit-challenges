@@ -1,4 +1,5 @@
-function sortDescending(num) {
-  const numbers = [...num + ''].sort().reverse().join('');
-  return parseInt(numbers, 10);
+function leftDigit(num) {
+  return +num.split("").find(function(e) {
+    return !isNaN(e);
+  });
 }
