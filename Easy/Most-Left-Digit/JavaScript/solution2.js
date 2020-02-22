@@ -1,3 +1,1 @@
-function sortDescending(num) {
-  return Number(num.toString().split('').sort((a, b) => b - a).join(''));
-}
+const leftDigit = str => Number(str.match(/[\d]/));
