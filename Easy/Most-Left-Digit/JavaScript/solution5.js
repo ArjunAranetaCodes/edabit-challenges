@@ -1,3 +1,5 @@
-function sortDescending(num) {
-	return parseInt(num.toString().split('').sort().reverse().join(''));
+function leftDigit(num) {
+	var filtered = parseInt(num.split("").filter(elem => !isNaN(elem)).shift());
+	
+	return filtered;
 }
