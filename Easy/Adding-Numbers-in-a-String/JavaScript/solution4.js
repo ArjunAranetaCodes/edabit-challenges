@@ -1,5 +1,3 @@
-function leftDigit(num) {
-  return +num.split("").find(function(e) {
-    return !isNaN(e);
-  });
+function maximumScore(tileHand) {
+	return tileHand.reduce((c,v) => c += v.score, 0)
 }
