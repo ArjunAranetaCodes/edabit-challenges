@@ -1,3 +1,1 @@
-function leftDigit(num) {
-	return Number(num.match(/[0-9]/)[0])
-}
+const maximumScore = t => t.reduce((acc,item) => item.score+acc , 0)
