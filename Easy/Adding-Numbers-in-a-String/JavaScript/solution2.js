@@ -1,0 +1,1 @@
+const leftDigit = str => Number(str.match(/[\d]/));
