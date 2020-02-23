@@ -1,1 +1,2 @@
-const leftDigit = str => Number(str.match(/[\d]/));
+const maximumScore = obj => 
+	  obj.reduce((a, {score}) => a + score, 0);
