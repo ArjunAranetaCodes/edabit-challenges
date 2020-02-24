@@ -1,4 +1,5 @@
-function formatMath(expr) {
-	var newExpr = expr.replace("x", "*")
-	return expr + " = " + eval(newExpr).toString()
+function greetingMaker(salutation) {
+	return function closure(name) {
+	  return salutation + ", " + name 	
+	}
 }
