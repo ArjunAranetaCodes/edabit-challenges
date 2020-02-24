@@ -1,0 +1,1 @@
+const greetingMaker = salutation => name => salutation + ", " + name;
