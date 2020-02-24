@@ -1,3 +1,5 @@
-function formatMath(expr) {
-	return `${expr} = ${eval(expr.replace("x", "*"))}`
+function greetingMaker(salutation) {
+	return function closure(name) {
+	  return salutation + ", " + name 	
+	}	
 }
