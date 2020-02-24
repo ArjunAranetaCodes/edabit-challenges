@@ -1,1 +1,1 @@
-const formatMath = expr => `${expr} = ${eval(expr.replace("x", "*"))}`;
+const greetingMaker = sal => name => `${sal}, ${name}`;
