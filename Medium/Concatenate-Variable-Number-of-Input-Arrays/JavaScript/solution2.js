@@ -1,5 +1,1 @@
-function greetingMaker(salutation) {
-	return function closure(name) {
-	  return salutation + ", " + name 	
-	}	
-}
+const concat = (...a) => a.flat(Infinity);
