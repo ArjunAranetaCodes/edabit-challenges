@@ -1,0 +1,1 @@
+const greetingMaker = sal => name => `${sal}, ${name}`;
