@@ -1,5 +1,3 @@
-function greetingMaker(salutation) {
-	return function closure(name) {
-	  return salutation + ", " + name 	
-	}
+function concat(...args) {
+	return [...args].flat(Infinity)
 }
