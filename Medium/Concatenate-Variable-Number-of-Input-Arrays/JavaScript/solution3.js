@@ -1,1 +1,3 @@
-const greetingMaker = sal => name => `${sal}, ${name}`;
+function concat(...args) {
+	return [].concat(...args);
+}
