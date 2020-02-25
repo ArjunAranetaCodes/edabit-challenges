@@ -1,9 +1,3 @@
-function greetingMaker(name) {
-	var salutation = "Hello"
-	function closure(name) {
-	  return salutation + ", " + name 	
-	}
-	return closure
+function concat(...args) {
+	return [].concat.apply([], args);
 }
-
-var greeting = greetingMaker();
