@@ -1,0 +1,1 @@
+const diffMaxMin = a => Math.max(...a) - Math.min(...a);
