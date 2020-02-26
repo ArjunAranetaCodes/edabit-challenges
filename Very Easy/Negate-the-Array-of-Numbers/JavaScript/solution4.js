@@ -1,3 +1,1 @@
-function diffMaxMin(arr) {
-	return Math.max(...arr) - Math.min(...arr);
-}
+const negate = a => a.map(x => x * -1);
