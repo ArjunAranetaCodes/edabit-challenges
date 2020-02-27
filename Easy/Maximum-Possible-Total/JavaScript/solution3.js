@@ -1,0 +1,1 @@
+const maximumScore = t => t.reduce((acc,item) => item.score+acc , 0)
