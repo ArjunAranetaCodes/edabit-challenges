@@ -1,3 +1,4 @@
-function maximumScore(tileHand) {
-	return tileHand.reduce((c,v) => c += v.score, 0)
-}
+const maxTotal = nums =>
+	nums
+		.sort((a,b) => b - a)
+		.reduce((acc,cur,idx) => idx < 5 ? acc + cur : acc, 0)
