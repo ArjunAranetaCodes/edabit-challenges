@@ -1,8 +1,1 @@
-function maximumScore(tileHand) {
-	var sum = 0
-	for(var x = 0; x < tileHand.length; x++){
-		var obj = tileHand[x]
-		sum = sum + obj.score
-	}
-	return sum
-}
+const maxTotal = T => T.sort((d,x)=>d-x).slice(-5).reduce((t,e)=>t+=e,0)
