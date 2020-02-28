@@ -1,3 +1,3 @@
-function concat(...args) {
-	return [...args].flat(Infinity)
+function rev(n) {
+	return  Math.abs(n).toString().split('').reverse().join("");
 }
