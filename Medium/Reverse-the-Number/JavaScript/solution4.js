@@ -1,3 +1,3 @@
-function concat(...args) {
-	return [].concat.apply([], args);
+const rev = n => {
+	return String(Math.abs(n)).split('').reverse().join('');
 }
