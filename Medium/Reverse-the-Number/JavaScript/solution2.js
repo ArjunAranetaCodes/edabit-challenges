@@ -1,0 +1,1 @@
+const concat = (...a) => a.flat(Infinity);
