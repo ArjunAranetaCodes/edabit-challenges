@@ -1,2 +1,9 @@
-const findBrokenKeys = (s1, s2) =>
- [...new Set([...s1+''].filter((a,b)=> a !== s2[b]))];
+function sumMissingNumbers(arr) {
+	var sum = 0;
+	for(var x = Math.min(...arr); x <= Math.max(...arr); x++){
+		if(!arr.includes(x)){
+			sum = sum + x
+		}
+	}
+	return sum
+}
