@@ -1,9 +1,8 @@
-function findBrokenKeys(str1, str2) {
-	let brokenSet=new Set();
-	for(let i=0;i<str1.length;i++){
-		if(str1[i]!==str2[i]){
-			brokenSet.add(str1[i]);
-		}
-	}
-	return [...brokenSet];
-}
+const sum = arr => arr.reduce((total, num) => total + num, 0);
+
+const sumMissingNumbers = arr => {
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+
+  return (max - min + 1) * ((min + max) / 2) - sum(arr);
+};
