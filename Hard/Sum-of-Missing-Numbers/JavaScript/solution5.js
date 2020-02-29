@@ -1,11 +1,11 @@
-function findBrokenKeys(str1, str2) {
-	var arrBroken = []
-	for(var x = 0; x < str1.length; x++){
-		if(str1.charAt(x) !== str2.charAt(x)){
-			if(!arrBroken.includes(str1.charAt(x))){
-			 arrBroken.push(str1.charAt(x))	
-			}			
-		}			
+function sumMissingNumbers(arr) {
+	var sorted = arr.sort(function(x,y) { return x-y; });
+	var missing = [];
+	for (var i=sorted[0]; i<=sorted[sorted.length-1]; i++) {
+		if (sorted.indexOf(i) === -1) {
+			missing.push(i);
+		}
 	}
-	return arrBroken
+	
+	return missing.length !== 0 ? missing.reduce((acc,idx) => acc += idx) : 0;
 }
