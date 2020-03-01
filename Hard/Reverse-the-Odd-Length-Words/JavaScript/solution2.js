@@ -1,8 +1,12 @@
-const sum = arr => arr.reduce((total, num) => total + num, 0);
-
-const sumMissingNumbers = arr => {
-  const min = Math.min(...arr);
-  const max = Math.max(...arr);
-
-  return (max - min + 1) * ((min + max) / 2) - sum(arr);
-};
+function reverseOdd(str) {
+	var newArr = str.split(" ")
+	var arrWords = []
+	for(var x = 0; x < newArr.length; x++){
+		if(newArr[x].length % 2 == 1){
+			arrWords.push(newArr[x].split("").reverse().join(""))
+		}else{
+			arrWords.push(newArr[x])
+		}
+	}
+	return arrWords.join(" ")
+}
