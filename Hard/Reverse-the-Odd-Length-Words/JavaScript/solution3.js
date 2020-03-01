@@ -1,3 +1,3 @@
-const sumAB = (a, b) => ((b - a + 1) * (a + b)) >> 1;
-const sum = ar => ar.reduce((a,v) => a + v, 0);
-const sumMissingNumbers = arr => sumAB(Math.min(...arr), Math.max(...arr)) - sum(arr);
+function reverseOdd(str) {
+	return str.split(' ').map(word => (word.length % 2 == 0)? word : word.split('').reverse().join('')).join(' ');
+}
