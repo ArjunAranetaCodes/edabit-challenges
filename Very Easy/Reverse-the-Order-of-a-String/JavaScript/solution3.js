@@ -1,6 +1,7 @@
-function negate(arr) {
-	for(let i = 0; i < arr.length; i++) {
-		arr[i] = -arr[i];
-	}
-	return arr;
+function reverse(str) {
+  let result = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    result += str[i];
+  }
+  return result; 
 }
