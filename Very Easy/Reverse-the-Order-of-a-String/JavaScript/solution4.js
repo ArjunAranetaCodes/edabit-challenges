@@ -1,0 +1,1 @@
+const negate = a => a.map(x => x * -1);
