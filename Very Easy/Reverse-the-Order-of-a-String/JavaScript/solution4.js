@@ -1,1 +1,1 @@
-const negate = a => a.map(x => x * -1);
+var reverse = str => [...str].reverse().join('');
