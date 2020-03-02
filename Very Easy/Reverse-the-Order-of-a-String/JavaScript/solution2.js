@@ -1,3 +1,3 @@
-function negate(arr) {
-	return arr.map(x => -x);
+function reverse(str) {
+  return [...str].reverse().join('');
 }
