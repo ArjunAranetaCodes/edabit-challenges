@@ -1,3 +1,1 @@
-function negate(arr) {
-	return arr.map(x => -x);
-}
+reverse = s => s.split``.reverse().join``
