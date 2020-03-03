@@ -1,0 +1,1 @@
+var reverse = str => [...str].reverse().join('');
