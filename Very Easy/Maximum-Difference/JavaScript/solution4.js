@@ -1,1 +1,1 @@
-var reverse = str => [...str].reverse().join('');
+const difference = (nums) => Math.max(...nums) - Math.min(...nums);
