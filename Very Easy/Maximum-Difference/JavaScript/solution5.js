@@ -1,1 +1,3 @@
-reverse = s => s.split``.reverse().join``
+function difference(nums) {
+	return Math.max(...nums) - Math.min(...nums)
+}
