@@ -1,7 +1,6 @@
-function reverse(str) {
-  let result = "";
-  for (let i = str.length - 1; i >= 0; i--) {
-    result += str[i];
-  }
-  return result; 
+function difference(nums) {
+	nums.sort((a, b) => a - b);
+	let myArray = [nums[0], nums[nums.length-1]];
+	var x = myArray[1] - myArray[0];
+	return(x);
 }
