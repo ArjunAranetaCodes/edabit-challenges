@@ -1,0 +1,1 @@
+const sum = n => n === 1 ? n : n + sum(n-1);
