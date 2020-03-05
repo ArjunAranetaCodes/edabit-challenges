@@ -1,0 +1,1 @@
+const sum = (n) => n != 0 ? sum(n-1) + n : 0
