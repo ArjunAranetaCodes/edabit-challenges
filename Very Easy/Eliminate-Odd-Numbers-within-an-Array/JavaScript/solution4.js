@@ -1,7 +1,9 @@
-const sum = function(n) {
-    let arr = [];
-    for (let i = 1; i <= n; i++) {
-        arr.push(i);
+function noOdds(arr) {
+  var result = [];
+  for(var i = 0; i < arr.length; i++) {
+    if(arr[i]%2 == 0) {
+      result.push(arr[i]);
     }
-    return arr.reduce((acc, cur) => acc + cur);
-};
+  }
+  return result;
+}
