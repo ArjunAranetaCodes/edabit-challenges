@@ -1,1 +1,3 @@
-const sum = (n) => n != 0 ? sum(n-1) + n : 0
+function noOdds(arr) {
+  return arr.filter(function(val){ return val % 2 === 0; })
+}
