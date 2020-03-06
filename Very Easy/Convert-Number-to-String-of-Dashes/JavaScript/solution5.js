@@ -1,3 +1,3 @@
-function noOdds(arr) {
-  return arr.filter(n => !(n%2))
+function Go(num) {
+	return Array(num).fill('-').join('');
 }
