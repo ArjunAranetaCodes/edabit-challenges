@@ -1,3 +1,1 @@
-function noOdds(arr) {
-  return arr.filter(x => x % 2 === 0);
-}
+const Go = num => '-'.repeat(num);
