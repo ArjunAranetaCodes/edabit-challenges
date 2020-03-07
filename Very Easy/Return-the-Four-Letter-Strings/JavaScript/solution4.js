@@ -1,3 +1,5 @@
-function Go(num) {
-	return "-".repeat(num);
+function isFourLetters(arr) {
+  return arr.filter(function(str) {
+    return str.length === 4;
+  });
 }
