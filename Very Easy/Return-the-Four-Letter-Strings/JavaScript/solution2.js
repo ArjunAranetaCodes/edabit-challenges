@@ -1,0 +1,1 @@
+const Go = num => '-'.repeat(num);
