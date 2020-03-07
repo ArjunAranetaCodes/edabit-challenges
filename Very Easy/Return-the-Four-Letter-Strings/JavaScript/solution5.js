@@ -1,3 +1,3 @@
-function Go(num) {
-	return Array(num).fill('-').join('');
+function isFourLetters(arr) {
+  return arr.filter(x => x.length == 4);
 }
