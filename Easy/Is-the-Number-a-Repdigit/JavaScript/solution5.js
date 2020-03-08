@@ -1,1 +1,9 @@
-const maxTotal = T => T.sort((d,x)=>d-x).slice(-5).reduce((t,e)=>t+=e,0)
+function isRepdigit(num) {
+	num += "";
+	for (i = 0; i < num.length; i++) {
+			if (num[i] != num[0]) {
+					return false;
+			}
+	}
+	return true;
+}
