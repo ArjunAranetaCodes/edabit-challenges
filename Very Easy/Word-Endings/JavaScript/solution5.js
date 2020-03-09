@@ -1,3 +1,5 @@
-function isFourLetters(arr) {
-  return arr.filter(x => x.length == 4);
+function addEnding(arr, ending) {
+  return arr.map(function(el){
+		return el+ending;
+	})	
 }
