@@ -1,0 +1,1 @@
+let isFourLetters = (arr) => arr.filter(word => word.length === 4);
