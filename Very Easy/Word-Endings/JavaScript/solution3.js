@@ -1,1 +1,3 @@
-let isFourLetters = (arr) => arr.filter(word => word.length === 4);
+function addEnding(arr, ending) {
+	return arr.map(s => s.concat(ending));
+}
