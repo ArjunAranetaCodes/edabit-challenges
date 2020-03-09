@@ -1,5 +1,6 @@
-function isFourLetters(arr) {
-  return arr.filter(function(str) {
-    return str.length === 4;
-  });
+function addEnding(arr, ending) {
+	for(var i=0; i < arr.length; i++){
+		arr[i] = arr[i]+ending;
+	}
+	return arr;
 }
