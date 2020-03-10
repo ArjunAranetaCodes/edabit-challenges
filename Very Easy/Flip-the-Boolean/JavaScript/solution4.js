@@ -1,0 +1,1 @@
+let findLargestNum = arr => Math.max(...arr)
