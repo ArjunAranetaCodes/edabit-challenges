@@ -1,3 +1,1 @@
-function findLargestNum(arr) {
-  return arr.sort((a, b) => b - a)[0]
-}
+const reverse = bool => typeof bool === 'boolean' ? !bool : 'boolean expected';
