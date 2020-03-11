@@ -1,5 +1,3 @@
-function addEnding(arr, ending) {
-  return arr.map(function(el){
-		return el+ending;
-	})	
+function findLargestNum(arr) {
+   return Math.max.apply(Math, arr)
 }
