@@ -1,3 +1,3 @@
-function addEnding(arr, ending) {
-	return arr.map(s => s.concat(ending));
+function findLargestNum(arr) {
+  return arr.sort((a, b) => b - a)[0]
 }
