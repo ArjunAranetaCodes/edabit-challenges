@@ -1,1 +1,1 @@
-const reverse = bool => typeof bool === 'boolean' ? !bool : 'boolean expected';
+const calcDeterminant = ([[a, b], [c, d]]) => a*d - b*c;
