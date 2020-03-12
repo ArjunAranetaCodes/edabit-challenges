@@ -1,0 +1,1 @@
+const reverse = bool => typeof bool === 'boolean' ? !bool : 'boolean expected';
