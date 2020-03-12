@@ -1,9 +1,3 @@
-function reverse(bool) {
-	if(bool === true) {
-		return false;
-	} else if(bool === false) {
-		return true;
-	} else {
-		return "boolean expected";
-	}
+function calcDeterminant(matrix) {
+	return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0])
 }
