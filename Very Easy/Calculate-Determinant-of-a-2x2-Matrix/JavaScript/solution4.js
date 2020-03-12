@@ -1,7 +1,4 @@
-function reverse(bool) {
-	if (typeof bool === 'boolean') {
-		return !bool
-	} else {
-		return 'boolean expected'
-	}
+function calcDeterminant(matrix) {
+	const [[a, b], [c, d]] = matrix
+	return a * d - b * c
 }
