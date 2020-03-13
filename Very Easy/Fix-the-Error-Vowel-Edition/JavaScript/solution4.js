@@ -1,4 +1,4 @@
-function calcDeterminant(matrix) {
-	const [[a, b], [c, d]] = matrix
-	return a * d - b * c
+// Fix this incorrect code, so that all tests pass!
+function removeVowels(str) {
+  return str.replace(/[aeiou]/g, '')
 }
