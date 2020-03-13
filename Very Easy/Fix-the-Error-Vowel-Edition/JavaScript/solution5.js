@@ -1,3 +1,4 @@
-function calcDeterminant(matrix) {
-	return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0])
+// Fix this incorrect code, so that all tests pass!
+function removeVowels(str) {
+  return str.replace(/[aeiou]/gi, '');
 }
