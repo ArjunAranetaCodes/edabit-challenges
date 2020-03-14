@@ -1,4 +1,1 @@
-// Fix this incorrect code, so that all tests pass!
-function removeVowels(str) {
-  return str.replace(/[aeiou]/g, '')
-}
+const additiveInverse = arr => arr.map(x => 0 - x);
