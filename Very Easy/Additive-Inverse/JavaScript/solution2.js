@@ -1,3 +1,3 @@
-function removeVowels(str) {
-  return str.replace(/[aeiou]/gi, '')
+function additiveInverse(arr) {
+	return arr.map(x => x * -1);	
 }
