@@ -1,1 +1,3 @@
-const additiveInverse = arr => arr.map(x => 0 - x);
+function replaceVowels(str, ch) {
+	return str.replace(/[aeiou]/gi, ch);
+}
