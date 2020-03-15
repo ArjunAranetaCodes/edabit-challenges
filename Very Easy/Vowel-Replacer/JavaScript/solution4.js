@@ -1,0 +1,1 @@
+const additiveInverse = arr => arr.map(x => 0 - x);
