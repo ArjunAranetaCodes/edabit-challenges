@@ -1,3 +1,5 @@
-function reverseOdd(str) {
-	return str.split(' ').map(word => (word.length % 2 == 0)? word : word.split('').reverse().join('')).join(' ');
+function pentagonal(num) { 
+  if (num <= 1) return 1;
+	num--;
+	return num*5+pentagonal(num);
 }
