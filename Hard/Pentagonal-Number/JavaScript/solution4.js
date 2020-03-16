@@ -1,1 +1,5 @@
-reverseOdd = (str)=> str.split(' ').map((a)=> {return a.length%2 ? a.split('').reverse().join('') : a} ).join(' ')
+const pentagonal = num => {
+	if (num === 1) return 1;
+	
+	return 5 * (num - 1) + pentagonal(num - 1);
+}
