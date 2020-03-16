@@ -1,0 +1,1 @@
+reverseOdd = (str)=> str.split(' ').map((a)=> {return a.length%2 ? a.split('').reverse().join('') : a} ).join(' ')
