@@ -1,12 +1,15 @@
-function reverseOdd(str) {
-	var newArr = str.split(" ")
-	var arrWords = []
-	for(var x = 0; x < newArr.length; x++){
-		if(newArr[x].length % 2 == 1){
-			arrWords.push(newArr[x].split("").reverse().join(""))
-		}else{
-			arrWords.push(newArr[x])
-		}
-	}
-	return arrWords.join(" ")
+function pentagonal(num) {
+var numOfCir = num;
+    var circle = 0;
+    if(numOfCir == 1){
+        return 1;
+    }
+    while(numOfCir > 1){
+        circle += numOfCir+(3*(numOfCir-1))+numOfCir-2 
+        numOfCir -=1
+        if(numOfCir == 1){
+            circle+=1
+        } 
+    }
+    return circle
 }
