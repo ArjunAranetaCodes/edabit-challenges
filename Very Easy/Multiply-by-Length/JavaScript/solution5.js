@@ -1,12 +1,7 @@
-function replaceVowels(str, ch) {
-	var newStr = ""
-	for(var x = 0; x < str.length; x++){
-		if(("aeiou").includes(str.charAt(x))){
-			newStr = newStr + ch
-		}else{
-			newStr = newStr + str.charAt(x)
-		}
-		
+function multiplyByLength(arr) {
+	var ans = [];
+	for (i = 0; i < arr.length; i++) {
+		ans.push(arr[i] * arr.length);
 	}
-	return newStr
+	return ans
 }
