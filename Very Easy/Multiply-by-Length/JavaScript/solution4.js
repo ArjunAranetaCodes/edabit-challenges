@@ -1,3 +1,3 @@
-function replaceVowels(str, ch) {
-	return str.replace(/[aeiou]/gi, ch);
+function multiplyByLength(arr) {
+	return arr.map(x => x * arr.length);
 }
