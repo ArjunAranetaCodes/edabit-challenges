@@ -1,7 +1,5 @@
-function multiplyByLength(arr) {
-	var ans = [];
-	for (i = 0; i < arr.length; i++) {
-		ans.push(arr[i] * arr.length);
-	}
-	return ans
+function asterisk(string) {
+	const regex = RegExp('a+[a-z]*c+');
+
+	return regex.test(string);
 }
