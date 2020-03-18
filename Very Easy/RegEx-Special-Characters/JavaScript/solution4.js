@@ -1,3 +1,1 @@
-function multiplyByLength(arr) {
-	return arr.map(x => x * arr.length);
-}
+const asterisk = str => /ab*c/.test(str);
