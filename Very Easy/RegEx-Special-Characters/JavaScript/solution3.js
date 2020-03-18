@@ -1,0 +1,1 @@
+multiplyByLength = arr => arr.map(x=>x*arr.length)
