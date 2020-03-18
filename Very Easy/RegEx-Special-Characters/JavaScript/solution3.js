@@ -1,1 +1,3 @@
-multiplyByLength = arr => arr.map(x=>x*arr.length)
+function asterisk(string) {
+	return /ab*c/.test(string)
+}
