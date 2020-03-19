@@ -1,0 +1,1 @@
+const asterisk = str => /ab*c/.test(str);
