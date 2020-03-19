@@ -1,1 +1,1 @@
-const asterisk = string => /ab*c/g.test(string);
+let x = /[0-9]+/
