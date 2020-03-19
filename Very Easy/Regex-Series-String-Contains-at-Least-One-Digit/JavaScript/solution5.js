@@ -1,5 +1,1 @@
-function asterisk(string) {
-	const regex = RegExp('a+[a-z]*c+');
-
-	return regex.test(string);
-}
+let x = /[0-9]/
