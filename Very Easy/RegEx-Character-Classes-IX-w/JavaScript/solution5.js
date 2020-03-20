@@ -1,1 +1,1 @@
-let x = /[0-9]/
+const REGEXP = /\w/g
