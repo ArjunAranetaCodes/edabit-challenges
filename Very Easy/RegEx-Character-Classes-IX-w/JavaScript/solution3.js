@@ -1,1 +1,1 @@
-let x = /\d/
+const REGEXP = /\w/g
