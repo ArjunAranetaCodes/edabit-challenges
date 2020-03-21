@@ -1,1 +1,1 @@
-const REGEXP = /\w/g
+const filterArray = arr => arr.filter(Number.isInteger);
