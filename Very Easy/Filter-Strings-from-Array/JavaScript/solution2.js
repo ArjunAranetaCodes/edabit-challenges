@@ -1,1 +1,1 @@
-const REGEXP = /\w/g;
+let filterArray = a => a.filter(x=> x % 1 == 0);
