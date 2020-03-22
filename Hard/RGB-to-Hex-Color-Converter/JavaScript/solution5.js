@@ -1,3 +1,1 @@
-function pentagonal(num) {
-	return (5 * Math.pow(num, 2) - (5 * num) + 2) / 2
-}
+const rgbToHex = col => '#'+col.match(/\d+/g).map(v => (+v).toString(16).padStart(2,'0')).join('');
