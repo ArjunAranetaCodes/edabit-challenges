@@ -1,15 +1,9 @@
-function pentagonal(num) {
-var numOfCir = num;
-    var circle = 0;
-    if(numOfCir == 1){
-        return 1;
-    }
-    while(numOfCir > 1){
-        circle += numOfCir+(3*(numOfCir-1))+numOfCir-2 
-        numOfCir -=1
-        if(numOfCir == 1){
-            circle+=1
-        } 
-    }
-    return circle
+function rgbToHex(col) {
+	col = col.replace('rgb(', '').replace(')', '').split(',');
+	var r = parseInt(col[0], 10).toString(16);
+	var g = parseInt(col[1], 10).toString(16);
+	var b = parseInt(col[2], 10).toString(16);
+	r = r.length == 1 ? '0' + r : r; g = g.length == 1 ? '0' + g : g; b = b.length == 1 ? '0' + b : b;
+	var colHex = '#' + r + g + b;
+	return colHex;	
 }
