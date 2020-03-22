@@ -1,0 +1,1 @@
+const isRepdigit = num => new Set(''+num).size === 1;

@@ -1,0 +1,1 @@
+let isRepdigit = n => /^(\d)\1*$/.test(n);
