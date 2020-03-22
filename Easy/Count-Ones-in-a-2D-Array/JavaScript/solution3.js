@@ -1,1 +1,3 @@
-const isRepdigit = num => new Set(''+num).size === 1;
+function countOnes(matrix) {
+	return matrix.join("").split("").filter(x => x == "1").length;
+}
