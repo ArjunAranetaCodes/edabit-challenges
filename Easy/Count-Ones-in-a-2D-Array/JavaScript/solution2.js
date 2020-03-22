@@ -1,1 +1,1 @@
-const isRepdigit = n => new Set(`${n}`).size === 1;
+const countOnes = matrix => matrix.flat().filter(x=> x === 1).length
