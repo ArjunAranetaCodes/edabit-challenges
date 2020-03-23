@@ -1,3 +1,3 @@
-function rgbToHex(col) {
-	return `#${col.match(/\d+/g).map(v => (+v).toString(16).padStart(2, "0")).join("")}`;
+function canConcatenate(arr, target) {
+	return JSON.stringify(arr.flat().sort()) === JSON.stringify(target.sort());
 }
