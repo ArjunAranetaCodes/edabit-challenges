@@ -1,3 +1,3 @@
-function canConcatenate(arr, target) {
-  return [].concat(...arr).sort().join('') === target.sort().join('');
+function numInStr(arr) {
+	return arr.filter(x=>/\d/.test(x));
 }
