@@ -1,11 +1,1 @@
-function retrieveMajor(semver) {
-	return semver.split(".")[0];
-}
-
-function retrieveMinor(semver) {
-	return semver.split(".")[1];
-}
-
-function retrievePatch(semver) {
-	return semver.split(".")[2];
-}
+let str = `( {one, two} = { one : 1, two : 2}).toString()`
