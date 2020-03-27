@@ -1,1 +1,3 @@
-let str = `({one, two} = {one: 1, two: 2}).toString()`;
+function dictionary(initial, words) {
+	return words.filter(w => w.startsWith(initial))
+}
