@@ -1,1 +1,1 @@
-let str = `( { one, two } = { one : 1, two : 2}).toString()`
+const dictionary = (init, wds) => wds.filter(wrd => wrd.startsWith(init));
