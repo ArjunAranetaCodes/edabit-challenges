@@ -1,11 +1,16 @@
-function FizzBuzz(num) {
-	 if (num%3==0 && num%5==0) {
-		 return "FizzBuzz"
-	 } else if (num%3==0) {
-		 return "Fizz"
-	 } else if (num%5==0) {
-		 return "Buzz"
-	 } else {
-		 return num.toString()
-	 }
+function rogerShots(arr) {
+	let bottlesShoot = 0
+	let time = 0
+	for (let shot of arr) {
+		if (shot === "Bang!") {
+			bottlesShoot++
+			time+=0.5
+		}
+		if (shot === "BangBang!"){
+			bottlesShoot+=2
+			time+=0.5
+		}
+		if (bottlesShoot >= 6) break
+	}
+	return time
 }
