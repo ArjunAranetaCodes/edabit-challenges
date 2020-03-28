@@ -1,1 +1,6 @@
-const dictionary = (init, wds) => wds.filter(wrd => wrd.startsWith(init));
+function FizzBuzz(num) {
+	return num % 15 === 0 ? 'FizzBuzz' 
+	     : num % 5 === 0 ? 'Buzz' 
+	     : num % 3 === 0 ? 'Fizz' 
+	     : String(num);
+}
