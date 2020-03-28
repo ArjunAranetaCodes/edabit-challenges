@@ -1,0 +1,1 @@
+const dictionary = (init, wds) => wds.filter(wrd => wrd.startsWith(init));

@@ -1,0 +1,1 @@
+const dictionary = (initial, words) => words.filter(x => x.startsWith(initial));
