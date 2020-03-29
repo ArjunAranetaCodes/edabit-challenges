@@ -1,2 +1,4 @@
-const rogerShots = arr => 
-arr.filter(el => el === 'Bang!' || el === 'BangBang!').length * 0.5;
+const firstAndLast = str => {
+	const sorted = str.split('').sort();
+	return [sorted.join(''), sorted.reverse().join('')];
+}
