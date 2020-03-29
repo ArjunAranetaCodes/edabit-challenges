@@ -1,3 +1,3 @@
-function rogerShots(arr) {
-	return arr.filter(x => x == "Bang!" || x == "BangBang!").length/2
+function firstAndLast(s) {
+	return [s.split("").sort().join(""), s.split("").sort().reverse().join("")];
 }
