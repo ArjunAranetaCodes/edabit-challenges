@@ -1,9 +1,7 @@
-function rogerShots(arr) {
-	var sum = 0.0
-	for(var x = 0; x < arr.length; x++){
-		if(arr[x] === "Bang!" || arr[x] === "BangBang!"){
-			sum = sum + .5
-		}
-	}
-	return sum
+const firstAndLast = s => {
+	const arr = [];
+	arr.push([...s].sort().join(''))
+	arr.push([...s].sort().reverse().join(''))
+	
+	return arr;
 }
