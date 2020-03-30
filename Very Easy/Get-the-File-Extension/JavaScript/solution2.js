@@ -1,3 +1,3 @@
-function firstAndLast(s) {
-	return [s.split("").sort().join(""), s.split("").sort().reverse().join("")];
+function getExtension(arr) {
+	return arr.map(x => x.split('.')[1])
 }
