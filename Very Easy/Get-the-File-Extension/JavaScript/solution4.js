@@ -1,6 +1,7 @@
-function firstAndLast(s) {
-	let x = s.split('');
-	let first = x.sort().join('');
-	let last = x.sort().reverse().join('');
-	return [first, last];
+function getExtension(arr) {
+
+	for(i=0;i<arr.length;i++){
+	arr[i]=arr[i].slice(arr[i].indexOf(".")+1);
+}
+	return arr;
 }
