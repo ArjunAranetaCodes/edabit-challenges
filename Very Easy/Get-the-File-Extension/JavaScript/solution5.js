@@ -1,7 +1,6 @@
-const firstAndLast = s => {
-	const arr = [];
-	arr.push([...s].sort().join(''))
-	arr.push([...s].sort().reverse().join(''))
-	
-	return arr;
+function getExtension(arr) {
+	newArr = []
+	for (let el of arr){
+		newArr.push(el.split('.')[1])
+	} return newArr
 }
