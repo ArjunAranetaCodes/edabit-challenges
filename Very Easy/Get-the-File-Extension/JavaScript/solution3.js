@@ -1,4 +1,1 @@
-const firstAndLast = str => {
-	const sorted = str.split('').sort();
-	return [sorted.join(''), sorted.reverse().join('')];
-}
+const getExtension = a => a.map(w => w.split('.')[1]);
