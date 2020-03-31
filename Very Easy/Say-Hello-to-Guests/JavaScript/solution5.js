@@ -1,6 +1,5 @@
-function getExtension(arr) {
-	newArr = []
-	for (let el of arr){
-		newArr.push(el.split('.')[1])
-	} return newArr
+function greetPeople(names) {
+	
+	let b=names.map(a=>"Hello " + a).join(", ")
+	return b
 }
