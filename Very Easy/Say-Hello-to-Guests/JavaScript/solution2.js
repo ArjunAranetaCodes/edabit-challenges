@@ -1,3 +1,1 @@
-function getExtension(arr) {
-	return arr.map(x => x.split('.')[1])
-}
+const greetPeople = names => names.map(name => `Hello ${name}`).join(', ');
