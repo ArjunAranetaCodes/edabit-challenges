@@ -1,0 +1,1 @@
+const getExtension = a => a.map(w => w.split('.')[1]);
