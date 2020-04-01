@@ -1,5 +1,7 @@
-function greetPeople(names) {
-	
-	let b=names.map(a=>"Hello " + a).join(", ")
-	return b
+function checkEquals(arr1, arr2) {
+	if (arr1.join(", ") === arr2.join(", ")) {
+  	return true
+ 	} else {
+  	return false
+ 	}
 }
