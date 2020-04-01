@@ -1,0 +1,1 @@
+const greetPeople = names => names.map(name => `Hello ${name}`).join(', ');
