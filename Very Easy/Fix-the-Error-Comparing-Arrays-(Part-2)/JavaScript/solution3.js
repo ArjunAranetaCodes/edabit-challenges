@@ -1,7 +1,2 @@
-function greetPeople(names) {
-	let finalString = "";
-	names.forEach(name =>{
-		finalString += "Hello " + name + ", ";
-	})
-	return finalString.slice(0, finalString.length - 2)
-}
+const checkEquals = (arr1, arr2) =>
+  JSON.stringify(arr1) === JSON.stringify(arr2);
