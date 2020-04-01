@@ -1,7 +1,7 @@
-function greetPeople(names) {
-	var newArr = []
-	for(var x = 0; x < names.length; x++){
-		newArr.push("Hello " + names[x])
-	}
-	return newArr.join(", ")
+function checkEquals(arr1, arr2) {
+	if (arr1.join() === arr2.join()) {
+  	return true
+ 	} else {
+  	return false
+ 	}
 }
