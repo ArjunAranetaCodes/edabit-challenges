@@ -1,4 +1,3 @@
-function checkEquals(arr1, arr2) {
-	return arr1.every((x, i) => x === arr2[i])
- 	
+function canCapture([yourRook, opponentsRook]) {
+	return opponentsRook.includes(yourRook[0]) || opponentsRook.includes(yourRook[1]) ? true : false
 }
