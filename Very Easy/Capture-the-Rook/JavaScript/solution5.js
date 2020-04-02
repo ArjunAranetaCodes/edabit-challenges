@@ -1,7 +1,9 @@
-function checkEquals(arr1, arr2) {
-	if (arr1.join(", ") === arr2.join(", ")) {
-  	return true
- 	} else {
-  	return false
- 	}
+function canCapture([yourRook, opponentsRook]) {
+	var myRook = yourRook.split(''),
+			otherRook = opponentsRook.split('');
+	if(myRook[0] == otherRook[0] || myRook[1] == otherRook[1]){
+		return true;
+	} else {
+		return false;
+	}
 }
