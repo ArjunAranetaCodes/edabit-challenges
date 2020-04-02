@@ -1,2 +1,1 @@
-const checkEquals = (arr1, arr2) =>
-  JSON.stringify(arr1) === JSON.stringify(arr2);
+const canCapture = arr => arr[0][0] === arr[1][0] || arr[0][1] === arr[1][1];
