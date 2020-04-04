@@ -1,1 +1,1 @@
-const repeat = (item, times) => Array(times).fill(item);
+nameShuffle = s => s.split` `.reverse().join` `
