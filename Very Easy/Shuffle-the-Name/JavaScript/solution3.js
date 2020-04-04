@@ -1,3 +1,4 @@
-function repeat(item, times) {
-	return Array(times).fill(item);
+function nameShuffle(str) {
+	const arr = str.split(' ');
+	return arr[1] + ' ' + arr[0];
 }
