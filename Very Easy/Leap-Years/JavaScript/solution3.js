@@ -1,4 +1,1 @@
-function nameShuffle(str) {
-	const arr = str.split(' ');
-	return arr[1] + ' ' + arr[0];
-}
+const isLeap = y => y % 400 == 0 || y % 4 == 0 && y % 100 != 0;
