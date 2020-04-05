@@ -1,0 +1,1 @@
+nameShuffle = s => s.split` `.reverse().join` `

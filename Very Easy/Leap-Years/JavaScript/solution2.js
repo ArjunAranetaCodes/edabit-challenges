@@ -1,0 +1,1 @@
+const nameShuffle = str => str.split(' ').reverse().join(' ')
