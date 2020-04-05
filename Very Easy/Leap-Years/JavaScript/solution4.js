@@ -1,1 +1,1 @@
-nameShuffle = s => s.split` `.reverse().join` `
+const isLeap = y => y % 400 == 0 || y % 4 == 0 && y % 100 !== 0;
