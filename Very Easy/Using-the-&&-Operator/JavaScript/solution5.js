@@ -1,7 +1,5 @@
-function isLeap(year) {
-	if((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)){
-		return true;
-	}else {
-		return false;
-	}
+function and(a, b) {
+	if (a==false){return false}
+	else if (b==false){return false}
+	else if (a==true && b==true){return true}
 }
