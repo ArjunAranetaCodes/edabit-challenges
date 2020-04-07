@@ -1,3 +1,1 @@
-function and(a, b) {
-	return a && b;
-}
+const isOdd = num => num%2 !== 0;
