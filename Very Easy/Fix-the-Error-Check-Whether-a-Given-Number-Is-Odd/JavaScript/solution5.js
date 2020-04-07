@@ -1,5 +1,8 @@
-function and(a, b) {
-	if (a==false){return false}
-	else if (b==false){return false}
-	else if (a==true && b==true){return true}
+function isOdd(num){
+	if(num % 2 == 0){
+		return false
+	}else{
+	return true	
+	}
+	
 }
