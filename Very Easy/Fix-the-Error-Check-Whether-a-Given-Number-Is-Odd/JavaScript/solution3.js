@@ -1,4 +1,3 @@
-function and(a, b) {
-	let bool = (a === b && b != false ) ? true : false;
-	return bool;
+function isOdd(num){
+	return ((num % 2) !== 0) ? true : false;
 }
