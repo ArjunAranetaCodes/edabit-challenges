@@ -1,3 +1,3 @@
-function isOdd(num){
-	return ((num % 2) !== 0) ? true : false;
+function both(n1, n2) {
+	return Math.sign(n1) === Math.sign(n2);
 }
