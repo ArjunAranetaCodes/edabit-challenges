@@ -1,3 +1,1 @@
-function isOdd(num){
-	return Math.abs(num % 2) == 1;
-}
+const both = (n1, n2) => Math.sign(n1) === Math.sign(n2);
