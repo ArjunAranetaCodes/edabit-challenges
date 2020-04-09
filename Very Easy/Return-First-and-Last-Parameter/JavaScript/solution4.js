@@ -1,1 +1,7 @@
-const both = (n1, n2) => Math.sign(n1) === Math.sign(n2);
+function firstArg() {
+	return arguments[0]
+}
+
+function lastArg() {
+	return [...arguments].reverse()[0]
+}
