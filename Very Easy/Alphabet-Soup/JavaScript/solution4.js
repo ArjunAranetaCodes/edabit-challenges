@@ -1,7 +1,1 @@
-function firstArg() {
-	return arguments[0]
-}
-
-function lastArg() {
-	return [...arguments].reverse()[0]
-}
+AlphabetSoup = s => [...s].sort().join``
