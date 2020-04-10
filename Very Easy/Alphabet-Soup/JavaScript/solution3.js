@@ -1,3 +1,3 @@
-const firstArg = (...args) => args[0];
-
-const lastArg = (...args) => args[args.length - 1];
+function AlphabetSoup(str) {
+  return Array.from(str).sort().join('');
+}
