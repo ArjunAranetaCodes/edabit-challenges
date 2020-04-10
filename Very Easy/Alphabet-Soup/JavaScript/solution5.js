@@ -1,2 +1,3 @@
-firstArg = (...a) => a.shift()
-lastArg = (...a) => a.pop()
+function AlphabetSoup(str) {
+  return str.split('').sort().join('');
+}
