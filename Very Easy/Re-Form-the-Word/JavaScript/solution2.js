@@ -1,3 +1,2 @@
-function AlphabetSoup(str) {
-  return [...str].sort().join('');
-}
+const getWord=(left, right)=> 
+left.replace(/^./g,match=>match.toUpperCase())+right
