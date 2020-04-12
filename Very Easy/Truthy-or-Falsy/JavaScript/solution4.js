@@ -1,4 +1,7 @@
-function getWord(left, right) {
-	var newStr = left + right
-	return newStr.charAt(0).toUpperCase() + newStr.slice(1)
+function isTruthy(input) {
+	if(input) {
+		return 1
+	} else {
+		return 0
+	}
 }
