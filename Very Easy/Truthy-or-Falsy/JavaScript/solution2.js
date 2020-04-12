@@ -1,2 +1,1 @@
-const getWord=(left, right)=> 
-left.replace(/^./g,match=>match.toUpperCase())+right
+isTruthy = (input) => +!!input;
