@@ -1,7 +1,1 @@
-function isTruthy(input) {
-	if(input) {
-		return 1
-	} else {
-		return 0
-	}
-}
+const checkFactors = (factors, n) => factors.every(x => n % x == 0);
