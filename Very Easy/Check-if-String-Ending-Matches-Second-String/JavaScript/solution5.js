@@ -1,8 +1,3 @@
-function checkFactors(factors, num) {
-	for (let i = 0; i < factors.length; i++) {
-		if (num % factors[i] !== 0) {
-			return false;
-		}
-	}
-	return true;
+function checkEnding(str1, str2) {
+	return str1.endsWith(str2)
 }
