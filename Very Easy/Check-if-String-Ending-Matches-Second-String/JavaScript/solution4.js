@@ -1,1 +1,3 @@
-const checkFactors = (factors, n) => factors.every(x => n % x == 0);
+function checkEnding(str1, str2) {
+  return str2 === str1.substr(str1.length - str2.length, str2.length);
+}
