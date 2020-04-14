@@ -1,3 +1,1 @@
-function checkFactors(factors, num) {
-	return [...factors].every(factor => num % factor === 0)
-}
+let checkEnding = (a, b) => a.endsWith(b);
