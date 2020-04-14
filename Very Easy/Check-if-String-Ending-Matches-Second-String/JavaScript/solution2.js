@@ -1,3 +1,1 @@
-function checkFactors(factors, num) {
-	return factors.every(x => !(num % x));
-}
+const checkEnding = (str1, str2) => str1.endsWith(str2);
