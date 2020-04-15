@@ -1,1 +1,1 @@
-const checkEnding = (str1, str2) => str1.endsWith(str2);
+const unlucky13 = nums => nums.filter(n => n % 13);
