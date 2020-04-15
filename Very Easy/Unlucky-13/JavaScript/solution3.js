@@ -1,1 +1,3 @@
-const unlucky13 = nums => nums.filter(x => x % 13 !== 0);
+function unlucky13(nums) {
+	return nums.filter(num => num %  13 !== 0);
+}
