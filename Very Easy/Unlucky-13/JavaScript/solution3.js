@@ -1,0 +1,1 @@
+let checkEnding = (a, b) => a.endsWith(b);
