@@ -1,3 +1,3 @@
-function unlucky13(nums) {
-	return nums.filter(num => num %  13 !== 0);
+function convertCartesian(x, y) {
+return x.map(function(x,i){return [x,y[i]]})
 }
