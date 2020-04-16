@@ -1,0 +1,1 @@
+const unlucky13 = nums => nums.filter(n => n % 13);
