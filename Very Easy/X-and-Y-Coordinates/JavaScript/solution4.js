@@ -1,3 +1,6 @@
-function checkEnding(str1, str2) {
-  return str2 === str1.substr(str1.length - str2.length, str2.length);
+function convertCartesian(x, y) {
+	return x.map(function(element, idx) {
+	
+		return [element, y[idx] ]
+	});
 }
