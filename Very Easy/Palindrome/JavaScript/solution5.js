@@ -1,3 +1,1 @@
-function convertCartesian(x, y) {
-	return x.map((n, i) => [n, y[i]]);
-}
+checkPalindrome=(str)=>[...str].reverse().join("") == str
