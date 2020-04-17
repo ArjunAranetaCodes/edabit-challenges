@@ -1,6 +1,3 @@
-function convertCartesian(x, y) {
-	return x.map(function(element, idx) {
-	
-		return [element, y[idx] ]
-	});
+function checkPalindrome(str) {
+	return str == [...str].reverse().join('')
 }
