@@ -1,3 +1,3 @@
-function checkPalindrome(str) {
-  return str === str.split("").reverse().join("");
+function hurdleJump(hurdles, jumpHeight) {
+	return hurdles.every(h => jumpHeight >= h)
 }
