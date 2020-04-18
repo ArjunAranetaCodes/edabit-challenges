@@ -1,0 +1,1 @@
+checkPalindrome=(str)=>[...str].reverse().join("") == str
