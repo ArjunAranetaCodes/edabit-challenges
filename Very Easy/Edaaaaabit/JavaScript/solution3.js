@@ -1,0 +1,1 @@
+const hurdleJump = (arr, num) => Math.max(...arr) <= num
