@@ -1,3 +1,4 @@
-function hurdleJump(hurdles, jumpHeight) {
-	return hurdles.every(h => jumpHeight >= h)
+// JavaScript
+function howManyTimes(num) {
+  return 'Ed' + 'a'.repeat(num)+'bit'
 }
