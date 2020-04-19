@@ -1,1 +1,3 @@
-const hurdleJump = (arr, num) => Math.max(...arr) <= num
+function howManyTimes(num) {
+	return `Ed${"a".repeat(num)}bit`
+}
