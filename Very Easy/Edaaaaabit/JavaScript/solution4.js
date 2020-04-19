@@ -1,3 +1,4 @@
-function hurdleJump(hurdles, jumpHeight) {
-	return Math.max(...hurdles) <= jumpHeight
+function howManyTimes(num) {
+  let str = "a";
+  return `Ed${str.repeat(num)}bit`;
 }
