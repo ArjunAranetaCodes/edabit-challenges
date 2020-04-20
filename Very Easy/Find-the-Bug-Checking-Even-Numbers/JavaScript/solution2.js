@@ -1,4 +1,1 @@
-// JavaScript
-function howManyTimes(num) {
-  return 'Ed' + 'a'.repeat(num)+'bit'
-}
+const checkAllEven = arr => arr.every(x => x % 2 === 0);
