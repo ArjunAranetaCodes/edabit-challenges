@@ -1,1 +1,3 @@
-const checkAllEven = arr => arr.every(x => x % 2 === 0);
+function hasKey(obj, key) {
+	return obj.hasOwnProperty(key);
+}
