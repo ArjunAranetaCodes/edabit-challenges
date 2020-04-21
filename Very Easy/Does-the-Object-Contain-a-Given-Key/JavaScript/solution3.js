@@ -1,6 +1,3 @@
-// Fix this incorrect code!
-function checkAllEven(arr) {
-  return arr.every(function(x){
-	 return	x % 2 === 0
-	})
+function hasKey(obj, key) {
+	return Object.keys(obj).includes(key);
 }
