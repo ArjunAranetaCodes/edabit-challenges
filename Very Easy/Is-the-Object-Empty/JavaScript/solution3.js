@@ -1,3 +1,6 @@
-function hasKey(obj, key) {
-	return Object.keys(obj).includes(key);
+function isEmpty(obj) {
+	for(var key in obj){
+		return false
+	}
+	return true
 }
