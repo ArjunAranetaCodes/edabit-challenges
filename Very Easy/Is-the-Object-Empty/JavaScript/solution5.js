@@ -1,3 +1,6 @@
-function hasKey(obj, key) {
-	return obj[key] ? true : false;
+function isEmpty(obj) {
+	if(Object.keys(obj).length === 0 && obj.constructor === Object){
+		return true
+	}
+	return false
 }
