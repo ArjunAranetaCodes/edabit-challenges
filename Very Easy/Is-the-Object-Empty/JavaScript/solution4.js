@@ -1,1 +1,3 @@
-const hasKey = (obj, key) => obj[key]? true : false;
+function isEmpty(obj) {
+  return Object.keys(obj).length == 0;
+}
