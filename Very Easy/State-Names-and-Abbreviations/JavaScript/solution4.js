@@ -1,3 +1,2 @@
-function isEmpty(obj) {
-  return Object.keys(obj).length == 0;
-}
+const filterStateNames = (arr, type) => type === "abb" ?
+arr.filter(x => x.length === 2) : arr.filter(x => x.length > 2);
