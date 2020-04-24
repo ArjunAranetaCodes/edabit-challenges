@@ -1,3 +1,4 @@
-function filterStateNames(arr, type) {
-	return arr.filter(el => (type === 'abb') ? el.length === 2 : el.length > 2);
+// Fix this incorrect code, so that all tests pass!
+function minusOne(arr) {
+  return arr.slice(0,-1)
 }
