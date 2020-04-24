@@ -1,2 +1,5 @@
-const filterStateNames = (arr, type) => type === "abb" ?
-arr.filter(x => x.length === 2) : arr.filter(x => x.length > 2);
+function minusOne(arr) {
+	const a = [...arr]
+	a.pop()
+	return a
+}
