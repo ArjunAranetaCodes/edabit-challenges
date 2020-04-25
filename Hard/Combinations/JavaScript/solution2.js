@@ -1,9 +1,3 @@
-function numInStr(arr) {
-	return arr.filter(item => {
-		for (char of item){
-			if (char.charCodeAt(0)>47 && char.charCodeAt(0)<58){
-				return item;
-			}
-		}
-	})
+function combinations(items) {
+	return [...arguments].reduce((acc,item) => item===0 ? acc : acc*item)
 }
