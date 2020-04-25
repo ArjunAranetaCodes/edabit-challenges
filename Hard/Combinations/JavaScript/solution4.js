@@ -1,0 +1,1 @@
+const numInStr = arr => arr.filter(str => /\d/.test(str));
