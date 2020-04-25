@@ -1,1 +1,2 @@
-const numInStr = arr => arr.filter(str => /\d/.test(str));
+const combinations = (...i) => 
+ i.filter(x => x != 0).reduce((a,b)=> a*b);
