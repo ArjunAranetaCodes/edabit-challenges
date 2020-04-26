@@ -1,19 +1,19 @@
-function happy(n) {
-	var arrNum = n.toString().split("")
-	var proceed = true
-	while(proceed){
-		var sum = 0
-		for(var x = 0; x < arrNum.length; x++){
-			sum = sum + Math.pow(parseInt(arrNum[x]), 2)
-		}
-		arrNum = sum.toString().split("")
-		if(sum.toString().includes("4")){
-			return false
-			proceed = false
-		}else if(sum.toString() === "1"){
-			return true
-			proceed = false
-		}
-	}
-	return false
+Math.avg = function(arr, prec = 20) {
+	return +(arr.reduce((a, c) => a + c, 0) / arr.length).toFixed(prec);
+}
+
+Math.qAvg = function(arr, prec = 20) {
+	return +Math.sqrt(arr.reduce((a, c) => a + c*c, 0) / arr.length).toFixed(prec);
+}
+
+Math.hAvg = function(arr, prec = 20) {
+	return +(1/arr.reduce((a, c) => a + 1/(c*arr.length), 0)).toFixed(prec);
+}
+
+Math.gAvg = function(arr, prec = 20) {
+	return Math.nthRt(arr.reduce((a, c) => a * c, 1), arr.length, prec);
+}
+
+Math.nthRt = function(num, root, prec = 20) {
+	return +Math.exp((1/root) * Math.log(num)).toFixed(prec);
 }
