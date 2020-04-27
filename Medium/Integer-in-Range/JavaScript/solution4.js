@@ -1,3 +1,3 @@
-const rev = n => {
-	return String(Math.abs(n)).split('').reverse().join('');
+function intWithinBounds(n, lower, upper) {
+	return Number.isInteger(n) ? n >= lower && n < upper : false
 }
