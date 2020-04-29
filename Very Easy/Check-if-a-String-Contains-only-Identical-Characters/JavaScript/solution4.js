@@ -1,5 +1,3 @@
-function minusOne(arr) {
-	const a = [...arr]
-	a.pop()
-	return a
+function isIdentical(s) {
+	return (new Set(s)).size == 1
 }
