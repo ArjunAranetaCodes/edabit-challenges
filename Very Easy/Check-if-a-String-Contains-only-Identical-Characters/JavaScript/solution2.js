@@ -1,4 +1,1 @@
-// Fix this incorrect code, so that all tests pass!
-function minusOne(arr) {
-  return arr.slice(0,-1)
-}
+const isIdentical = a => a === a[0].repeat(a.length);
