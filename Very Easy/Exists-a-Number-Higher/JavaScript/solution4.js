@@ -1,3 +1,3 @@
-function isIdentical(s) {
-	return (new Set(s)).size == 1
+function existsHigher(arr, n) {
+	return arr.filter(x=>x>=n).length > 0;
 }
