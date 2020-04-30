@@ -1,0 +1,1 @@
+const isIdentical = a => a === a[0].repeat(a.length);
