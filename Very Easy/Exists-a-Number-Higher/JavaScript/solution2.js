@@ -1,1 +1,1 @@
-const isIdentical = a => a === a[0].repeat(a.length);
+const existsHigher = (arr, n) => arr.some(num => num >= n);
