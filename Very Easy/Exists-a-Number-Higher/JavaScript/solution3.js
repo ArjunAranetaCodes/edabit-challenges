@@ -1,3 +1,3 @@
-function isIdentical(s) {
-	return s.split('').every(el => el === s[0]);
+function existsHigher(arr, n) {
+	return Math.max(...arr) >= n;
 }
