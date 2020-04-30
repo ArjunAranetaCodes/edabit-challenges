@@ -1,3 +1,3 @@
-function isIdentical(s) {
-	return /^(\w)\1*$/.test(s)
+function existsHigher(arr, n) {
+	return Math.max(... arr) >= n
 }
