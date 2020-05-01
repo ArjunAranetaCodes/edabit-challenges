@@ -1,3 +1,3 @@
-function existsHigher(arr, n) {
-	return arr.filter(x=>x>=n).length > 0;
+function nextElement(arr) {
+	return arr[arr.length-1]+(arr[arr.length-1]-arr[arr.length-2]);
 }
