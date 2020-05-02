@@ -1,3 +1,4 @@
-function nextElement(arr) {
-	return arr[arr.length-1]+(arr[arr.length-1]-arr[arr.length-2]);
+function middleEarth(arr) {
+	return arr.join('').includes('FrodoSam') ||
+		arr.join('').includes('SamFrodo') 
 }
