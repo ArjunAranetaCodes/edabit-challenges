@@ -1,4 +1,1 @@
-const nextElement = arr => {
-	const [secondLast, last] = arr.slice(-2);
-	return last + (last - secondLast);
-}
+const middleEarth = arr => /samfrodo|frodosam/gi.test(arr.join(''));
