@@ -1,0 +1,1 @@
+const middleEarth = arr => /samfrodo|frodosam/gi.test(arr.join(''));
