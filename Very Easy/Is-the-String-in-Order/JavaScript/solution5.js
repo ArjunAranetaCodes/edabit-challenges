@@ -1,2 +1,3 @@
-const middleEarth = a => 
- Math.abs(a.indexOf('Sam') - a.indexOf('Frodo')) <= 1;
+function isInOrder(str) {
+	return [...str].sort().join('') === str
+}
