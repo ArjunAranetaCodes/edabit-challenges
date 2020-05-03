@@ -1,1 +1,1 @@
-const middleEarth = arr => /samfrodo|frodosam/gi.test(arr.join(''));
+const isInOrder = str => [...str].sort().join('') === str;
