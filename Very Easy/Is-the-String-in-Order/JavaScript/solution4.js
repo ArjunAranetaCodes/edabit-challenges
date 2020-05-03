@@ -1,4 +1,3 @@
-function middleEarth(arr) {
-	return arr.join('').includes('FrodoSam') ||
-		arr.join('').includes('SamFrodo') 
+function isInOrder(str) {
+	return str === str.split("").sort().join("");
 }
