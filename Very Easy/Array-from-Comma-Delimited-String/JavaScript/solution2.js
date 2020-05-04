@@ -1,1 +1,8 @@
-const isInOrder = str => [...str].sort().join('') === str;
+function toArray(str) {
+	if(str){
+		return str.split(", ");
+	}else{
+		return [];
+	}
+	
+}
