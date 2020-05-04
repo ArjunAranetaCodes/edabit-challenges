@@ -1,0 +1,1 @@
+const isInOrder = str => [...str].sort().join('') === str;
