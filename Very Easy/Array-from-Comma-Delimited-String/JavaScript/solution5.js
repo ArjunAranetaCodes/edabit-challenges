@@ -1,3 +1,4 @@
-function isInOrder(str) {
-	return [...str].sort().join('') === str
+function toArray(str) {
+	if(str === "") return []
+	return str.split(", ")
 }
