@@ -1,3 +1,3 @@
-function isInOrder(str) {
-	return str === str.split("").sort().join("");
+function toArray(str) {
+	return (str.length == 0) ? [] : str.split(", ");
 }
