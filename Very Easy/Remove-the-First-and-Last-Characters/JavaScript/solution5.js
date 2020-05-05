@@ -1,4 +1,1 @@
-function toArray(str) {
-	if(str === "") return []
-	return str.split(", ")
-}
+let removeFirstLast = s => s.slice(1, -1)||s;
