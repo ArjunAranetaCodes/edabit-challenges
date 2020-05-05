@@ -1,0 +1,1 @@
+removeFirstLast = str => str.slice(1, -1) || str;

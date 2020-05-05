@@ -1,0 +1,1 @@
+const toArray = str => str.split(', ').filter(Boolean);
