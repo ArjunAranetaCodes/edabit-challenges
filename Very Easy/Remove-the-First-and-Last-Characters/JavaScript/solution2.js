@@ -1,8 +1,1 @@
-function toArray(str) {
-	if(str){
-		return str.split(", ");
-	}else{
-		return [];
-	}
-	
-}
+const removeFirstLast = str => str.length > 2 ? str.slice(1,str.length - 1) : str;
