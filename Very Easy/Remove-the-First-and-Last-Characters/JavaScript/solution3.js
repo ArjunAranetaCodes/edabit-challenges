@@ -1,1 +1,1 @@
-const toArray = str => str.split(', ').filter(Boolean);
+const removeFirstLast=(str)=> str.length>2?str.slice(1,-1):str
