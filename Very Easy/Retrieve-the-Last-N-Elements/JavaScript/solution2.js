@@ -1,1 +1,6 @@
-const removeFirstLast = str => str.length > 2 ? str.slice(1,str.length - 1) : str;
+function last(a, n) {
+	if(n>a.length){
+		return "invalid";
+	}
+	return a.slice(a.length-n);
+}
