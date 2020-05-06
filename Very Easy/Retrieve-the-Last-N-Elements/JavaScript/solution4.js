@@ -1,4 +1,7 @@
-function removeFirstLast(str) {
-	if (str.length <= 2) return str;
-	return str.replace(/(^\w|\w$)/g, '');
+function last(a, n) {
+	if ( n <= a.length ) {
+	return a.slice(a.length - n, a.length);
+	} else {
+		return "invalid";
+	}
 }
