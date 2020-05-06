@@ -1,0 +1,1 @@
+let removeFirstLast = s => s.slice(1, -1)||s;
