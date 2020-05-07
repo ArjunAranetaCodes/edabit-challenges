@@ -1,6 +1,1 @@
-function last(a, n) {
-	if(n>a.length){
-		return "invalid";
-	}
-	return a.slice(a.length-n);
-}
+const smallerNum = (n1, n2) => (Number(n1) < Number(n2) ? n1 : n2);
