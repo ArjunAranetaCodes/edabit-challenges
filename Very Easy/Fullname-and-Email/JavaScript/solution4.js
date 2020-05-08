@@ -1,0 +1,1 @@
+let smallerNum=(n1, n2)=>String(Math.min(n1,n2))
