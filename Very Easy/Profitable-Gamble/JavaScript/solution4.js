@@ -1,0 +1,1 @@
+function profitableGamble(a,b,c){return a*b-c>0}
