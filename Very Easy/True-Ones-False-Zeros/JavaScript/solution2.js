@@ -1,3 +1,1 @@
-function correctStream(user, correct) {
-	return user.map(u => correct.indexOf(u) > -1 ? 1 : -1);
-}
+const integerBoolean = n => [...n].map(b => !!+b);
