@@ -1,11 +1,8 @@
-function correctStream(user, correct) {
-	var newArr = []
-	for(var x = 0; x < user.length; x++){
-		if(user[x] === correct[x]){
-			newArr.push(1)
-		}else{
-			newArr.push(-1)
-		}
+function integerBoolean(n) {
+	result = [];
+	
+	for (i = 0; i < n.length; i++){
+		result.push(n[i]==1);
 	}
-	return newArr
+	return result;
 }
