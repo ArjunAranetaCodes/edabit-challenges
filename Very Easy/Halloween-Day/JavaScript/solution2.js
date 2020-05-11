@@ -1,1 +1,7 @@
-const integerBoolean = n => [...n].map(b => !!+b);
+function halloween(dt) {
+ if(dt.getMonth() == 9 && dt.getDate() == 31){
+	 return "Bonfire toffee";
+ }else{
+	 return "toffee";
+ }
+}
