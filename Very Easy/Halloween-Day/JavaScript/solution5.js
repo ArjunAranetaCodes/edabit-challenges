@@ -1,8 +1,9 @@
-function integerBoolean(n) {
-	result = [];
-	
-	for (i = 0; i < n.length; i++){
-		result.push(n[i]==1);
+function halloween(dt) {
+	var day = dt.getDate();
+	var month = dt.getMonth();
+  if(day === 31 && month === 9){
+		return "Bonfire toffee";
+	} else {
+		return "toffee";
 	}
-	return result;
 }
