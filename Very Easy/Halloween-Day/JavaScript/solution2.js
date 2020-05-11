@@ -1,0 +1,1 @@
+const integerBoolean = n => [...n].map(b => !!+b);

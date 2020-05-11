@@ -1,0 +1,1 @@
+const integerBoolean = str => Array.from(str, num => Boolean(Number(num)));

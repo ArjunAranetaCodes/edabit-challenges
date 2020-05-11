@@ -1,0 +1,1 @@
+const integerBoolean = n => [...n].map(x => Boolean(Number(x)));
