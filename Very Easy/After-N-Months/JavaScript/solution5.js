@@ -1,9 +1,5 @@
-function filterDigitLength(arr, num) {
-	var newArr = []
-	for(var x = 0; x < arr.length; x++){
-		if(arr[x].toString().length === num){
-			newArr.push(arr[x])
-		}
-	}
-	return newArr
+function afterNMonths(year, months) {
+	if(year === undefined) return "year missing"
+	if(months === undefined) return "month missing"
+	return year + (Math.floor(months / 12))
 }
