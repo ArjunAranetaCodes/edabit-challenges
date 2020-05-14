@@ -1,2 +1,7 @@
-const filterDigitLength = (arr, digits) =>
-  arr.filter(num => String(num).length === digits);
+function afterNMonths(year, months) {
+  return !year
+    ? "year missing"
+    : !months
+    ? "month missing"
+    : year + Math.floor(months / 12);
+}
