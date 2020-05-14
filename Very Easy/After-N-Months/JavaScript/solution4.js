@@ -1,5 +1,6 @@
-function filterDigitLength(arr, num) {
-	return (arr || []).filter(e=>{
-	    return e.toString().length === num
-	})
-}
+const afterNMonths = (year, months) =>
+  months === undefined
+    ? 'month missing'
+    : year === undefined
+    ? 'year missing'
+    : Math.floor(year + months / 12);
