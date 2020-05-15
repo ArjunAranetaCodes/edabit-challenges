@@ -1,2 +1,3 @@
-const afterNMonths = (y, m) =>
-	!y ? 'year missing' : !m ? 'month missing' : y + ~~(m / 12);
+function firstLast(name){
+	return name.charAt(0) + name.charAt(name.length - 1);
+}
