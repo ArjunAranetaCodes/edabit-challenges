@@ -1,7 +1,1 @@
-function afterNMonths(year, months) {
-  return !year
-    ? "year missing"
-    : !months
-    ? "month missing"
-    : year + Math.floor(months / 12);
-}
+const firstLast = name => name[0] + name[name.length - 1];
