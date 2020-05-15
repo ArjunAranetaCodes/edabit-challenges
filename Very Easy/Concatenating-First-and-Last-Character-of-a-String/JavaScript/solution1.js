@@ -1,0 +1,1 @@
+const firstLast = n => n[0] + n.slice(-1);
