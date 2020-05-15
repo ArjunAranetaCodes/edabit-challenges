@@ -1,5 +1,3 @@
-function afterNMonths(year, months) {
-	if(year === undefined) return "year missing"
-	if(months === undefined) return "month missing"
-	return year + (Math.floor(months / 12))
+function firstLast(name){
+ return name.slice(0,1) + name.slice( name.length -1)
 }
