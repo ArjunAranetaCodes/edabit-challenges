@@ -1,6 +1,5 @@
-const afterNMonths = (year, months) =>
-  months === undefined
-    ? 'month missing'
-    : year === undefined
-    ? 'year missing'
-    : Math.floor(year + months / 12);
+function firstLast(name) {
+	const first = name.charAt(0);
+	const last = name.charAt(name.length-1);
+	return `${first}${last}`
+}
