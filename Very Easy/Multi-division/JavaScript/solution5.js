@@ -1,3 +1,9 @@
-function firstLast(name){
- return name.slice(0,1) + name.slice( name.length -1)
+function abcmath(a, b, c) {
+	var sum = 0
+	sum= a
+	while(b > 0){
+		sum = sum + sum
+		b--
+	}
+	return sum % c === 0
 }
