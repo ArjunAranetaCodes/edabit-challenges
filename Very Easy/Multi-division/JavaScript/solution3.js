@@ -1,1 +1,8 @@
-const firstLast = name => name[0] + name[name.length - 1];
+function abcmath(a, b, c) {
+	while(b>0)
+		{
+			a = a+a;
+			b--;
+		}
+	return (a%c===0);
+}
