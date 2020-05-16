@@ -1,5 +1,6 @@
-function firstLast(name) {
-	const first = name.charAt(0);
-	const last = name.charAt(name.length-1);
-	return `${first}${last}`
+function abcmath(a, b, c) {
+	for(let i = 0; i<b; i++){
+        a += a;
+    }
+    return a % c === 0;
 }
