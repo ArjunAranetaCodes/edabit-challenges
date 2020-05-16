@@ -1,3 +1,6 @@
-function firstLast(name){
-	return name.charAt(0) + name.charAt(name.length - 1);
+function abcmath(a, b, c) {
+	for (let i = 0; i <= b; i++) {
+		a = a + a;
+	}
+	return a % c === 0;
 }
