@@ -1,0 +1,1 @@
+const firstLast = name => name[0] + name[name.length - 1];
