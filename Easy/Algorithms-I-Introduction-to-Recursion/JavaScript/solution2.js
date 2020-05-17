@@ -1,1 +1,1 @@
-const countOnes = matrix => matrix.flat().filter(x=> x === 1).length
+const factorial = n => n < 2? 1 : n * factorial(n-1);
