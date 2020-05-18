@@ -1,6 +1,2 @@
-function abcmath(a, b, c) {
-	for(let i = 0; i<b; i++){
-        a += a;
-    }
-    return a % c === 0;
-}
+const hammingDistance = (a, b) => 
+	[...a].reduce((t, c, i) => t + (c != b[i]), 0);
