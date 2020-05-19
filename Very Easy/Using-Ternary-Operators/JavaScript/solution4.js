@@ -1,2 +1,3 @@
-const hammingDistance = (a, b) => 
-	[...a].reduce((t, c, i) => t + (c != b[i]), 0);
+function yeah_nope(bool) {
+	return bool ? 'yeah' : 'nope'
+}
