@@ -1,3 +1,3 @@
-function yeah_nope(bool) {
-	return bool == true ? "yeah" : "nope"
+function newWord(txt){
+	return [...txt].slice(1).join('');
 }
