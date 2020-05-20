@@ -1,0 +1,1 @@
+yeah_nope = b => b ? "yeah" : "nope"
