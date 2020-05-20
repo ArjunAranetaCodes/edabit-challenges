@@ -1,1 +1,3 @@
-yeah_nope = b => b ? "yeah" : "nope"
+function newWord(txt) {
+	return txt.slice(1)
+}
