@@ -1,4 +1,3 @@
-function factorial(num) {
-	if (num <= 1) return num;
-	return num * factorial(num - 1);
+function convertToDecimal(perc) {
+	return perc.map(num => parseFloat(num)/100);
 }
