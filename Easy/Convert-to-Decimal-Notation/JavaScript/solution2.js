@@ -1,1 +1,3 @@
-const factorial = n => n < 2? 1 : n * factorial(n-1);
+function convertToDecimal(perc) {
+	return perc.map(i=>parseFloat(i)/100)
+}
