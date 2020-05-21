@@ -1,7 +1,3 @@
-function factorial(num) {
-	if(num === 1){
-		return 1	
-	}else{
-		return num * factorial(num - 1)	
-	}	
+function convertToDecimal(perc) {
+	return perc.map(percentage => parseFloat(percentage) / 100);
 }
