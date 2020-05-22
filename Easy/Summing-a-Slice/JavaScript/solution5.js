@@ -1,3 +1,3 @@
-function convertToDecimal(perc) {
-	return perc.map(num => parseFloat(num)/100);
+function sliceSum(arr, n) {
+	return arr.slice(0,n).reduce((acc,curr) => acc + curr, 0);
 }
