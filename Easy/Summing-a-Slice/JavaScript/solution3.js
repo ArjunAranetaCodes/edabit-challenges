@@ -1,3 +1,1 @@
-function convertToDecimal(perc) {
-	return perc.map(percentage => parseFloat(percentage) / 100);
-}
+const sliceSum = (arr, n) => arr.reduce((a, v, i) => i < n? a + v : a, 0);
