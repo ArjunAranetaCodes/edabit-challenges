@@ -1,4 +1,3 @@
-function reverseCase(str) {
-	return str.split('').map(a => a == a.toLowerCase() ? a.toUpperCase()
-				 : a.toLowerCase()).join('');
+function sortByLength(arr) {
+	return arr.sort((a, b) => { return a.length - b.length})
 }
