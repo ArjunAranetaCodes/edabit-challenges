@@ -1,5 +1,1 @@
-function reverseCase(str) {
-	return str.split('').map(l => {
-		return l.match(/[a-z]/) ? l.toUpperCase() : l.toLowerCase()
-	}).join('')
-}
+const sortByLength = arr => arr.sort((a,b) => a.length - b.length);
