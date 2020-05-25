@@ -1,3 +1,3 @@
-function newWord(txt){
-	return [...txt].slice(1).join('');
+function lettersOnly(str) {
+	return str.replace(/[^A-Za-z]/g, "")	
 }
