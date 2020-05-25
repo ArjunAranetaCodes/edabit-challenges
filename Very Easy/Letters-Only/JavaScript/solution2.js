@@ -1,3 +1,3 @@
-function newWord(txt){
-	return txt.slice(1);
+function lettersOnly(str) {
+	return str.match(/[a-z]/gi).join('')
 }
