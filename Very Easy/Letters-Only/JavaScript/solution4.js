@@ -1,3 +1,5 @@
-function newWord(txt){
-	return txt.slice(1)
+function lettersOnly(str) {
+	const regex = /[A-Za-z]/g;
+	
+	return str.match(regex).join("");
 }
