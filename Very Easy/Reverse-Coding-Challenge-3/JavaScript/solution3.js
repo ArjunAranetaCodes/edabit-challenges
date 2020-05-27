@@ -1,12 +1,7 @@
-function divisible(arr) {
-	let total = arr.reduce((a,b) => {
-		return a*b;
-	})
-	
-	let total2 = arr.reduce((a,b) => {
-		return a+b;
-	})
-	
-	if(total % total2 === 0) return true;
-	return false;
+function mysteryFunc(arr, num) {
+  var newArr = [];
+	for (var i = 0; i < arr.length; i++){
+		newArr.push(arr[i]%num);
+	}
+	return newArr;
 }
