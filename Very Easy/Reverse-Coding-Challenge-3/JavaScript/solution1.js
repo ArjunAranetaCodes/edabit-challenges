@@ -1,0 +1,1 @@
+const mysteryFunc = (arr, divisor) => arr.map(num => num % divisor);
