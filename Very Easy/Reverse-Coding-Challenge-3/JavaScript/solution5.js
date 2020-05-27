@@ -1,9 +1,7 @@
-function divisible(arr) {
-	var prod = 1
-	var sum = 0
+function mysteryFunc(arr, num) {
+  var newArr = []
 	for(var x = 0; x < arr.length; x++){
-		prod = prod * arr[x]
-		sum = sum + arr[x]
+		newArr.push(arr[x] % num)
 	}
-	return prod % sum === 0
+	return newArr
 }
