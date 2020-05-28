@@ -1,0 +1,1 @@
+const mysteryFunc = (arr, num) => arr.map(x => x % num);
