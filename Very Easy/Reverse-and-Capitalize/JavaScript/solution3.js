@@ -1,4 +1,1 @@
-function formatDate(date) {
-	const [month, day, year] = date.split("/")
-	return `${year}${day}${month}`
-}
+let reverseCapitalize = s => [...s].reverse().join('').toUpperCase();
