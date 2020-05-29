@@ -1,3 +1,3 @@
-function formatDate(date) {
-return date.split('/').reverse().join('')
+const reverseCapitalize = string => {
+    return string.split("").reverse().join("").toUpperCase();
 }
