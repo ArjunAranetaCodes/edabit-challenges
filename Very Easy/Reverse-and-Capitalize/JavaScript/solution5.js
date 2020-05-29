@@ -1,0 +1,1 @@
+let formatDate = u => u.split('/').reverse().join('');
